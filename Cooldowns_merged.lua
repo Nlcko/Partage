@@ -1,25 +1,9 @@
 -- Merged Lua files from directory: Cooldowns
--- Generated on: 2025-10-15T16:41:11.168Z
--- Total files merged: 6 Lua files, 1 TOC files
+-- Generated on: 2025-10-15T16:46:10.975Z
+-- Total files merged: 6
 
 -- ========================================
--- TOC File: Cooldowns/cooldowns.toc
--- ========================================
-
-## Interface: 11200
-## Title: cooldowns
-## Author: shirsig
-## SavedVariables: cooldowns_settings
-libs\module.lua
-libs\T.lua
-core.lua
-frame.lua
-player.lua
-enemy.lua
-
-
--- ========================================
--- Lua File: Cooldowns/core.lua
+-- File: Cooldowns/core.lua
 -- ========================================
 
 cooldowns_module 'cooldowns'
@@ -168,7 +152,7 @@ end
 
 
 -- ========================================
--- Lua File: Cooldowns/enemy.lua
+-- File: Cooldowns/enemy.lua
 -- ========================================
 
 cooldowns_module 'cooldowns.enemy'
@@ -579,7 +563,7 @@ end
 
 
 -- ========================================
--- Lua File: Cooldowns/frame.lua
+-- File: Cooldowns/frame.lua
 -- ========================================
 
 cooldowns_module 'cooldowns.frame'
@@ -1018,7 +1002,7 @@ end
 
 
 -- ========================================
--- Lua File: Cooldowns/libs/T.lua
+-- File: Cooldowns/libs/T.lua
 -- ========================================
 
 cooldowns_library 'T'
@@ -1171,7 +1155,7 @@ end)
 
 
 -- ========================================
--- Lua File: Cooldowns/libs/module.lua
+-- File: Cooldowns/libs/module.lua
 -- ========================================
 
 if cooldowns_module then return end
@@ -1242,7 +1226,7 @@ function cooldowns_require(name) if not loaded[name] then create_module(name) en
 
 
 -- ========================================
--- Lua File: Cooldowns/player.lua
+-- File: Cooldowns/player.lua
 -- ========================================
 
 cooldowns_module 'cooldowns.player'
