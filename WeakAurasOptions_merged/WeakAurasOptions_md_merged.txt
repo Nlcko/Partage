@@ -1,0 +1,14 @@
+# Merged MD files from WeakAurasOptions
+# Generated on: 2025-10-16T01:09:00.514Z
+# Total files: 1
+
+
+================================================================================
+FILE: WeakAurasOptions/Libs/LibAPIAutoComplete-1.0/README.md
+================================================================================
+
+# LibAPIAutoComplete-1.0
+
+A World of Warcraft library that provides an UI widget for API documentation autocomplete.
+
+
