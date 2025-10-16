@@ -1,5 +1,5 @@
 # Merged XML files from WeakAurasOptions
-# Generated on: 2025-10-16T01:08:59.374Z
+# Generated on: 2025-10-16T01:11:45.829Z
 # Total files: 10
 
 
