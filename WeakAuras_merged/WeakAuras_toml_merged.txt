@@ -1,0 +1,38 @@
+# Merged TOML files from WeakAuras
+# Generated on: 2025-10-16T01:08:29.626Z
+# Total files: 3
+
+
+================================================================================
+FILE: WeakAuras/Libs/LibGetFrame-1.0/stylua.toml
+================================================================================
+
+indent_type = "Spaces"
+indent_width = 2
+column_width = 180
+line_endings = "Unix"
+quote_style = "ForceDouble"
+
+
+================================================================================
+FILE: WeakAuras/Libs/LibRangeCheck-3.0/stylua.toml
+================================================================================
+
+indent_type = "Spaces"
+indent_width = 2
+column_width = 180
+line_endings = "Unix"
+quote_style = "ForceDouble"
+
+
+
+================================================================================
+FILE: WeakAuras/stylua.toml
+================================================================================
+
+indent_type = "Spaces"
+indent_width = 2
+column_width = 180
+line_endings = "Unix"
+
+
