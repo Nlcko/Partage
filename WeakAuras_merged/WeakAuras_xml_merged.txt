@@ -1,0 +1,641 @@
+# Merged XML files from WeakAuras
+# Generated on: 2025-10-16T01:11:04.336Z
+# Total files: 20
+
+
+================================================================================
+FILE: WeakAuras/Bindings.xml
+================================================================================
+
+<Bindings>
+  <Binding name="WEAKAURASTOGGLE" Category="BINDING_HEADER_WEAKAURAS">
+    WeakAuras.OpenOptions()
+  </Binding>
+  <Binding name="WEAKAURASPROFILINGTOGGLE" Category="BINDING_HEADER_WEAKAURAS">
+    WeakAurasProfilingFrame:Toggle()
+  </Binding>
+  <Binding name="WEAKAURASPRINTPROFILING" Category="BINDING_HEADER_WEAKAURAS">
+    WeakAuras.PrintProfile()
+  </Binding>
+</Bindings>
+
+
+
+================================================================================
+FILE: WeakAuras/Libs/AceComm-3.0/AceComm-3.0.xml
+================================================================================
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="ChatThrottleLib.lua"/>
+	<Script file="AceComm-3.0.lua"/>
+</Ui>
+
+
+================================================================================
+FILE: WeakAuras/Libs/AceSerializer-3.0/AceSerializer-3.0.xml
+================================================================================
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="AceSerializer-3.0.lua"/>
+</Ui>
+
+
+================================================================================
+FILE: WeakAuras/Libs/AceTimer-3.0/AceTimer-3.0.xml
+================================================================================
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="AceTimer-3.0.lua"/>
+</Ui>
+
+
+================================================================================
+FILE: WeakAuras/Libs/Archivist/Archivist.xml
+================================================================================
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+	<Script file="libs\LibStub\LibStub.lua"/>
+	<Script file="libs\LibDeflate\LibDeflate.lua"/>
+	<Script file="Archivist.lua"/>
+	<Script file="stores\RawData.lua"/>
+	<Script file="stores\ReadOnly.lua"/>
+</Ui>
+
+
+
+================================================================================
+FILE: WeakAuras/Libs/CallbackHandler-1.0/CallbackHandler-1.0.xml
+================================================================================
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="CallbackHandler-1.0.lua"/>
+</Ui>
+
+
+================================================================================
+FILE: WeakAuras/Libs/Chomp/Chomp.xml
+================================================================================
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Include file="Internal.lua"/>
+	<Include file="Public.lua"/>
+	<Include file="StringManip.lua"/>
+
+	<Script>
+		local Chomp = LibStub:GetLibrary("Chomp", true)
+		local Internal = Chomp and Chomp.Internal or nil
+
+		if Chomp and Internal then
+			Internal.LOADING = nil
+		end
+	</Script>
+</Ui>
+
+
+
+================================================================================
+FILE: WeakAuras/Libs/LibCompress/lib.xml
+================================================================================
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="LibCompress.lua" />
+</Ui>
+
+
+================================================================================
+FILE: WeakAuras/Libs/LibCustomGlow-1.0/LibCustomGlow-1.0.xml
+================================================================================
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+  <Script file = "LibCustomGlow-1.0.lua"/>
+</Ui>
+
+
+================================================================================
+FILE: WeakAuras/Libs/LibDBIcon-1.0/lib.xml
+================================================================================
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+
+<Script file="LibDBIcon-1.0.lua"/>
+
+</Ui>
+
+
+
+
+================================================================================
+FILE: WeakAuras/Libs/LibDeflate/lib.xml
+================================================================================
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="LibDeflate.lua" />
+</Ui>
+
+
+================================================================================
+FILE: WeakAuras/Libs/LibGetFrame-1.0/CallbackHandler-1.0/CallbackHandler-1.0.xml
+================================================================================
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="CallbackHandler-1.0.lua"/>
+</Ui>
+
+
+================================================================================
+FILE: WeakAuras/Libs/LibGetFrame-1.0/LibGetFrame-1.0.xml
+================================================================================
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+  <Script file = "LibStub\LibStub.lua"/>
+  <Include file ="CallbackHandler-1.0\CallbackHandler-1.0.xml"/>
+  <Script file = "LibGetFrame-1.0.lua"/>
+</Ui>
+
+
+
+================================================================================
+FILE: WeakAuras/Libs/LibSerialize/lib.xml
+================================================================================
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+  <Script file="LibSerialize.lua" />
+</Ui>
+
+
+
+================================================================================
+FILE: WeakAuras/Libs/LibSharedMedia-3.0/lib.xml
+================================================================================
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="LibSharedMedia-3.0.lua" />
+</Ui>
+
+
+================================================================================
+FILE: WeakAuras/Libs/LibSpellRange-1.0/lib.xml
+================================================================================
+
+<Ui>
+	<Script file="LibSpellRange-1.0.lua"/>
+</Ui>
+
+
+================================================================================
+FILE: WeakAuras/Libs/TaintLess/TaintLess.xml
+================================================================================
+
+<Ui><Script><![CDATA[--[[
+
+TaintLess [24-07-27]
+https://www.townlong-yak.com/addons/taintless
+
+All rights reserved.
+
+Permission is hereby granted to distribute unmodified copies of this file.
+]]
+
+local purgeKey do
+	local e = {}
+	function purgeKey(t, k)
+		e.textures, t[k] = t, 0
+		TextureLoadingGroupMixin.RemoveTexture(e, k)
+	end
+end
+
+local patch, cbuild do
+	local skips = securecall(function()
+		local r, _, an = {moon="haunted"}
+		cbuild, r.moon, _, an = select(4,GetBuildInfo()), nil, issecurevariable(r, "moon")
+		for m, v, clo, chi in (C_AddOns.GetAddOnMetadata(an, "X-TaintLess-DisableMitigations") or ""):gmatch("([%a_]+)=(%d+):?(%d*):?(%d*)") do
+			if (clo == "" or cbuild >= clo+0) and (chi == "" or chi+0 >= cbuild) then
+				r[m] = v + 0
+			end
+		end
+		return r
+	end)
+	function patch(name, version, impl)
+		if impl and not ((tonumber(_G[name]) or 0) >= version or skips and skips[name] == version) then
+			_G[name] = version
+			securecall(impl, version)
+		end
+	end
+end
+local CLASSIC = cbuild and cbuild < 11e4
+
+-- https://www.townlong-yak.com/addons/taintless/fixes/RefreshOverread
+patch("UIDD_REFRESH_OVERREAD_PATCH_VERSION", 7, CLASSIC and function(V)
+	hooksecurefunc("UIDropDownMenu_InitializeHelper", function()
+		for i=1, UIDD_REFRESH_OVERREAD_PATCH_VERSION == V and UIDROPDOWNMENU_MAXLEVELS or 0 do
+			for j=1+_G["DropDownList" .. i].numButtons, UIDROPDOWNMENU_MAXBUTTONS do
+				local b, _ = _G["DropDownList" .. i .. "Button" .. j]
+				_ = issecurevariable(b, "checked")      or purgeKey(b, "checked")
+				_ = issecurevariable(b, "notCheckable") or purgeKey(b, "notCheckable")
+			end
+		end
+	end)
+end)
+
+-- https://www.townlong-yak.com/addons/taintless/fixes/DisplayModeTaint
+patch("UIDROPDOWNMENU_OPEN_PATCH_VERSION", 5, CLASSIC and function(V)
+	hooksecurefunc("UIDropDownMenu_InitializeHelper", function(frame)
+		if UIDROPDOWNMENU_OPEN_PATCH_VERSION == V
+		   and UIDROPDOWNMENU_OPEN_MENU and UIDROPDOWNMENU_OPEN_MENU ~= frame
+		   and not issecurevariable(UIDROPDOWNMENU_OPEN_MENU, "displayMode") then
+			purgeKey(_G, "UIDROPDOWNMENU_OPEN_MENU")
+		end
+	end)
+end)
+
+-- https://www.townlong-yak.com/addons/taintless/fixes/CUFProfileActivation
+patch("CUF_PROFILE_ACTIVATE_PATCH_VERSION", 1, function(V)
+	if not (type(SetActiveRaidProfile) == "function" and type(CompactUnitFrameProfiles) == "table" and
+	        type(ScriptErrorsFrameMixin) == "table" and type(ScriptErrorsFrameMixin.DisplayMessageInternal) == "function") then
+		return
+	end
+	local o, dd = {}, CreateFrame("Frame") do
+		local s, sk, sv = 1, {"seen", "order", "order", "count"}, {{}, {}, newproxy(true), _G}
+		getmetatable(sv[3]).__len = function()
+			return "UIDROPDOWNMENU_MENU_LEVEL"
+		end
+		setmetatable(o, {__index=function(_,k)
+			s, sv[2][1] = k == sk[s] and s+1 or 1
+			return sv[s-1]
+		end})
+		function dd.initialize() end
+		dd:Hide()
+	end
+	hooksecurefunc("SetActiveRaidProfile", function()
+		if CUF_PROFILE_ACTIVATE_PATCH_VERSION ~= V or
+		   (issecurevariable("UIDROPDOWNMENU_MENU_LEVEL") and issecurevariable(DropDownList1, "numButtons")) then
+			return
+		end
+		pcall(UIDropDownMenu_InitializeHelper, dd)
+		purgeKey(_G, "UIDROPDOWNMENU_OPEN_MENU")
+		purgeKey(_G, "UIDROPDOWNMENU_INIT_MENU")
+		pcall(ScriptErrorsFrameMixin.DisplayMessageInternal, o, "", 0, 0, 0, "")
+	end)
+end)
+
+]]></Script></Ui>
+
+
+================================================================================
+FILE: WeakAuras/Profiling.xml
+================================================================================
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\..\FrameXML\UI_shared.xsd">
+
+  <Frame name="WeakAurasProfilingLineTemplate" mixin="WeakAurasProfilingLineMixin" virtual="true">
+    <Size y="20"/>
+    <Layers>
+      <Layer level="overlay">
+        <FontString parentKey="spike" font="Interface\AddOns\WeakAuras\Media\Fonts\FiraMono-Medium.ttf" justifyH="RIGHT">
+          <Size x="100" y="0"/>
+          <FontHeight val="12"/>
+          <Anchors>
+            <Anchor point="RIGHT" x= "-5" y="-2"/>
+          </Anchors>
+          <Scripts>
+            <OnEnter>
+              GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+              GameTooltip:AddLine(self:GetParent().spikeTooltip, 1, 1, 1, true)
+              GameTooltip:Show()
+            </OnEnter>
+            <OnLeave>
+              GameTooltip:Hide()
+            </OnLeave>
+          </Scripts>
+        </FontString>
+        <FontString parentKey="time" font="Interface\AddOns\WeakAuras\Media\Fonts\FiraMono-Medium.ttf" justifyH="RIGHT">
+          <Size x="100" y="0"/>
+          <FontHeight val="12"/>
+          <Anchors>
+            <Anchor point="RIGHT" relativeKey="$parent.spike" relativePoint="LEFT" y="-2"/>
+          </Anchors>
+          <Scripts>
+            <OnEnter>
+              GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+              GameTooltip:AddLine(self:GetParent().timeTooltip, 1, 1, 1, true)
+              GameTooltip:Show()
+            </OnEnter>
+            <OnLeave>
+              GameTooltip:Hide()
+            </OnLeave>
+          </Scripts>
+        </FontString>
+      </Layer>
+    </Layers>
+    <Frames>
+      <StatusBar parentKey="progressBar" drawLayer="BACKGROUND" minValue="0" maxValue="100" defaultValue="0">
+        <Anchors>
+          <Anchor point="TOPLEFT" relativePoint="TOPLEFT" relativeKey="$parent" x="1" y="0"/>
+          <Anchor point="BOTTOMRIGHT" relativePoint="BOTTOMLEFT" relativeKey="$parent.time" x="-2" y="0"/>
+        </Anchors>
+        <BarTexture file="Interface\Addons\WeakAuras\Media\Textures\Square_FullWhite.tga"/>
+        <Layers>
+          <Layer level="OVERLAY">
+            <FontString parentKey="name" font="Interface\AddOns\WeakAuras\Media\Fonts\FiraMono-Medium.ttf" justifyH="LEFT" wordwrap="false">
+              <Color r="1.0" g="0.82" b="0"/>
+              <FontHeight val="12"/>
+              <Anchors>
+                <Anchor point="LEFT" x="5"/>
+                <Anchor point="RIGHT" relativeKey="$parent.$parent.time" relativePoint="LEFT" x="-2" y="0"/>
+              </Anchors>
+            </FontString>
+          </Layer>
+        </Layers>
+      </StatusBar>
+    </Frames>
+  </Frame>
+
+  <Frame name="WeakAurasProfilingFrame" mixin="WeakAurasProfilingMixin" inherits="PortraitFrameTemplate" parent="UIParent" toplevel="true" movable="true" resizable="true" enableMouse="true" clampedToScreen="true" frameStrata="DIALOG" hidden="true">
+    <Size x="450" y="400"/>
+    <Anchors>
+      <Anchor point="CENTER"/>
+    </Anchors>
+
+    <Frames>
+      <Frame parentKey="TitleBar" inherits="PanelDragBarTemplate">
+        <Size y="32"/>
+        <Anchors>
+          <Anchor point="TOPLEFT"/>
+          <Anchor point="TOPRIGHT"/>
+        </Anchors>
+        <Scripts>
+          <OnMouseDown>
+            if button == "LeftButton" then
+              self.is_moving = true
+              self:GetParent():StartMoving()
+            end
+          </OnMouseDown>
+          <OnMouseUp>
+            if button == "LeftButton" and self.is_moving then
+              self.is_moving = nil
+              local parent = self:GetParent()
+              parent:StopMovingOrSizing()
+              local xOffset = parent:GetLeft()
+              local yOffset = parent:GetTop() - GetScreenHeight()
+              WeakAurasSaved.RealTimeProfilingWindow = WeakAurasSaved.RealTimeProfilingWindow or {}
+              WeakAurasSaved.RealTimeProfilingWindow.xOffset = xOffset
+              WeakAurasSaved.RealTimeProfilingWindow.yOffset = yOffset
+            end
+          </OnMouseUp>
+          <OnShow>
+            local data = WeakAurasSaved.RealTimeProfilingWindow
+            local parent = self:GetParent()
+            parent:ClearAllPoints()
+            if data then
+              parent:SetPoint("TOPLEFT", UIParent, "TOPLEFT", data.xOffset or 0, data.yOffset or 0)
+            else
+              parent:SetPoint("CENTER")
+            end
+          </OnShow>
+        </Scripts>
+      </Frame>
+
+      <Frame parentKey="buttons" hidden="false">
+        <Size y="30"/>
+        <Anchors>
+          <Anchor point="TOPLEFT" relativeKey="$parent.TitleBar" relativePoint="BOTTOMLEFT" />
+          <Anchor point="TOPRIGHT" relativeKey="$parent.TitleBar" relativePoint="BOTTOMRIGHT"/>
+        </Anchors>
+
+        <Frames>
+          <Button parentKey="report" inherits="UIPanelButtonTemplate">
+            <Size x="120" y="26"/>
+            <Anchors>
+              <Anchor point="TOPLEFT" x="15"/>
+            </Anchors>
+            <Scripts>
+              <OnClick function="WeakAurasProfilingResultButton_OnClick"/>
+              <OnEnter>
+                if self.tooltip then
+                  GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+                  GameTooltip:AddLine(self.tooltip, 1, 1, 1, true)
+                  GameTooltip:Show()
+                end
+              </OnEnter>
+              <OnLeave>
+                GameTooltip:Hide()
+              </OnLeave>
+            </Scripts>
+          </Button>
+
+          <Button parentKey="stop" inherits="UIPanelButtonTemplate">
+            <Size x="120" y="26"/>
+            <Anchors>
+              <Anchor point="TOPRIGHT" x="-10"/>
+            </Anchors>
+            <Scripts>
+              <OnClick function="WeakAurasProfilingStopButton_OnClick"/>
+              <OnEnter>
+                if self.tooltip then
+                  GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+                  GameTooltip:AddLine(self.tooltip, 1, 1, 1, true)
+                  GameTooltip:Show()
+                end
+              </OnEnter>
+              <OnLeave>
+                GameTooltip:Hide()
+              </OnLeave>
+            </Scripts>
+          </Button>
+
+          <Frame parentKey="modeDropDown" inherits="UIDropDownMenuTemplate">
+            <Size x="120" y="26"/>
+            <Anchors>
+              <Anchor point="TOP"/>
+            </Anchors>
+          </Frame>
+
+          <DropDownToggleButton parentKey="start" inherits="UIMenuButtonStretchTemplate">
+            <Size x="120" y="26"/>
+            <Layers>
+              <Layer level="ARTWORK">
+                <Texture parentKey="Icon" file="Interface\ChatFrame\ChatFrameExpandArrow">
+                  <Size x="10" y="12"/>
+                  <Anchors>
+                    <Anchor point="RIGHT" relativeKey="$parent.Right" relativePoint="RIGHT" x="-5"/>
+                  </Anchors>
+                </Texture>
+              </Layer>
+            </Layers>
+            <Anchors>
+              <Anchor point="TOPRIGHT" x="-10"/>
+            </Anchors>
+          </DropDownToggleButton>
+          <Frame parentKey="startDropDown" inherits="UIDropDownMenuTemplate"/>
+        </Frames>
+      </Frame>
+
+      <Button parentKey="ResizeButton" inherits="PanelResizeButtonTemplate">
+        <Anchors>
+          <Anchor point="BOTTOMRIGHT" x="-4" y="4"/>
+        </Anchors>
+      </Button>
+
+      <Frame parentKey="ColumnDisplay" useParentLevel="true" inherits="ColumnDisplayTemplate">
+        <Anchors>
+          <Anchor point="TOPLEFT" x="10" y="-30"/>
+          <Anchor point="TOPRIGHT" x="-5" y="-30"/>
+        </Anchors>
+        <KeyValues>
+          <KeyValue key="sortingFunction" value="WeakAurasProfilingColumnDisplay_OnClick" type="global"/>
+        </KeyValues>
+      </Frame>
+
+      <Frame parentKey="ScrollBox" inherits="WowScrollBoxList">
+        <Anchors>
+          <Anchor point="TOPLEFT" relativeKey="$parent.ColumnDisplay" relativePoint="BOTTOMLEFT" x="5" />
+          <Anchor point="BOTTOMRIGHT" x="-30" y="22"/>
+        </Anchors>
+        <Layers>
+          <Layer level="BACKGROUND">
+            <Texture>
+              <Color r=".03" g=".03" b=".03" a="0.5"/>
+            </Texture>
+          </Layer>
+        </Layers>
+      </Frame>
+      <EventFrame parentKey="ScrollBar" inherits="WowTrimScrollBar">
+        <Anchors>
+          <Anchor point="TOPLEFT" relativeKey="$parent.ScrollBox" relativePoint="TOPRIGHT"/>
+          <Anchor point="BOTTOMLEFT" relativeKey="$parent.ScrollBox" relativePoint="BOTTOMRIGHT"/>
+        </Anchors>
+      </EventFrame>
+    </Frames>
+    <Layers>
+      <Layer level="overlay">
+        <FontString parentKey="stats" inherits="GameFontNormal" justifyH="LEFT">
+          <Anchors>
+            <Anchor point="BOTTOMLEFT" x="15" y="5"/>
+          </Anchors>
+        </FontString>
+      </Layer>
+    </Layers>
+    <Scripts>
+      <OnShow method="OnShow"/>
+    </Scripts>
+  </Frame>
+
+  <Frame name="WeakAurasProfilingReport" mixin="WeakAurasProfilingReportMixin" parent="WeakAurasProfilingFrame" movable="true" inherits="PortraitFrameTemplate" enableMouse="true" clampedToScreen="true" frameStrata="DIALOG" hidden="true">
+    <Size x="450" y="400"/>
+    <HitRectInsets>
+      <RelInset top="8" bottom="8" right="8" left="8" />
+    </HitRectInsets>
+    <Anchors>
+      <Anchor point="RIGHT"/>
+    </Anchors>
+    <Frames>
+      <Frame parentKey="TitleBar" inherits="PanelDragBarTemplate">
+        <Size y="32"/>
+        <Anchors>
+          <Anchor point="TOPLEFT"/>
+          <Anchor point="TOPRIGHT"/>
+        </Anchors>
+      </Frame>
+      <ScrollFrame parentKey="ScrollBox" inherits="ScrollFrameTemplate">
+        <KeyValues>
+          <KeyValue key="scrollBarX" value="-5" type="number"/>
+        </KeyValues>
+        <Anchors>
+          <Anchor point="TOPLEFT" relativeKey="$parent.TitleBar" relativePoint="BOTTOMLEFT" x="15" y="-5"/>
+          <Anchor point="BOTTOMRIGHT" x="-30" y="15"/>
+        </Anchors>
+        <ScrollChild>
+          <EditBox parentKey="messageFrame" multiLine="true" autoFocus="false">
+            <Size x="435" y="1"/>
+            <TextInsets left="5" right="5" bottom="5" top="5" />
+            <Anchors>
+              <Anchor point="TOPLEFT"/>
+              <Anchor point="BOTTOMRIGHT"/>
+            </Anchors>
+            <Layers>
+              <Layer level="BACKGROUND">
+                <Texture>
+                  <Color r=".03" g=".03" b=".03" a="0.5"/>
+                </Texture>
+              </Layer>
+            </Layers>
+            <Scripts>
+              <OnChar>
+                self:SetText(self.originalText)
+              </OnChar>
+            </Scripts>
+            <FontString inherits="GameFontHighlight"/>
+          </EditBox>
+        </ScrollChild>
+      </ScrollFrame>
+    </Frames>
+    <Scripts>
+      <OnLoad method="OnShow"/>
+    </Scripts>
+  </Frame>
+</Ui>
+
+
+================================================================================
+FILE: WeakAuras/embeds.xml
+================================================================================
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+  <Script file="Libs\LibStub\LibStub.lua"/>
+  <Include file="Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml"/>
+  <Include file="Libs\AceTimer-3.0\AceTimer-3.0.xml"/>
+  <Include file="Libs\AceSerializer-3.0\AceSerializer-3.0.xml"/>
+  <Include file="Libs\AceComm-3.0\AceComm-3.0.xml"/>
+  <Include file="Libs\Chomp\Chomp.xml"/>
+  <Include file="Libs\LibSharedMedia-3.0\lib.xml"/>
+  <Script file="Libs\LibCompress\LibCompress.lua"/>
+  <Script file="Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua"/>
+  <Script file="Libs\LibSpellRange-1.0\LibSpellRange-1.0.lua"/>
+  <Script file="Libs\LibRangeCheck-3.0\LibRangeCheck-3.0.lua"/>
+  <Script file="Libs\LibDeflate\LibDeflate.lua"/>
+  <Include file="Libs\LibCustomGlow-1.0\LibCustomGlow-1.0.xml"/>
+  <Script file="Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua"/>
+  <Script file="Libs\LibGetFrame-1.0\LibGetFrame-1.0.lua"/>
+  <Include file="Libs\Archivist\Archivist.xml"/>
+  <Include file="Libs\LibSerialize\lib.xml"/>
+</Ui>
+
+
+
+================================================================================
+FILE: WeakAuras/locales.xml
+================================================================================
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+
+<Script file="Locales\enUS.lua"/>
+<Script file="Locales\deDE.lua"/>
+<Script file="Locales\frFR.lua"/>
+<Script file="Locales\koKR.lua"/>
+<Script file="Locales\zhCN.lua"/>
+<Script file="Locales\zhTW.lua"/>
+<Script file="Locales\esES.lua"/>
+<Script file="Locales\esMX.lua"/>
+<Script file="Locales\ruRU.lua"/>
+<Script file="Locales\ptBR.lua"/>
+<Script file="Locales\itIT.lua"/>
+
+</Ui>
+
+

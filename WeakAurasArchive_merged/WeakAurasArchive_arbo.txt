@@ -1,0 +1,5 @@
+📁 WeakAurasArchive
+├── 📄 WeakAurasArchive_Cata.toc
+├── 📄 WeakAurasArchive_Mists.toc
+├── 📄 WeakAurasArchive_Vanilla.toc
+└── 📄 WeakAurasArchive.toc

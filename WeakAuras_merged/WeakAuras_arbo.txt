@@ -1,0 +1,218 @@
+📁 WeakAuras
+├── 📁 ArchiveTypes
+├── 📁 BaseRegions
+├── 📁 Libs
+  ├── 📁 AceComm-3.0
+  ├── 📁 AceSerializer-3.0
+  ├── 📁 AceTimer-3.0
+  ├── 📁 Archivist
+    ├── 📁 libs
+      ├── 📁 LibDeflate
+      ├── 📁 LibStub
+    ├── 📁 stores
+  ├── 📁 CallbackHandler-1.0
+  ├── 📁 Chomp
+  ├── 📁 LibCompress
+  ├── 📁 LibCustomGlow-1.0
+  ├── 📁 LibDataBroker-1.1
+  ├── 📁 LibDBIcon-1.0
+  ├── 📁 LibDeflate
+  ├── 📁 LibDispel
+  ├── 📁 LibGetFrame-1.0
+    ├── 📁 CallbackHandler-1.0
+    ├── 📁 LibStub
+      ├── 📁 tests
+  ├── 📁 LibRangeCheck-3.0
+  ├── 📁 LibSerialize
+  ├── 📁 LibSharedMedia-3.0
+  ├── 📁 LibSpecialization
+  ├── 📁 LibSpellRange-1.0
+  ├── 📁 LibStub
+    ├── 📁 tests
+  ├── 📁 TaintLess
+├── 📁 Locales
+├── 📁 Media
+  ├── 📁 Fonts
+  ├── 📁 Sounds
+  ├── 📁 Textures
+├── 📁 PowerAurasMedia
+  ├── 📁 Auras
+  ├── 📁 Sounds
+├── 📁 RegionTypes
+├── 📁 SubRegionTypes
+├── 📄 AnchorToWeakAuras.lua
+├── 📄 Animations.lua
+  ├── 📄 Repository.lua
+├── 📄 Atlas_Cata.lua
+├── 📄 Atlas_Vanilla.lua
+├── 📄 AuraEnvironment.lua
+├── 📄 AuraEnvironmentWrappedSystems.lua
+├── 📄 AuraWarnings.lua
+  ├── 📄 CircularProgressTexture.lua
+  ├── 📄 LinearProgressTexture.lua
+  ├── 📄 StopMotion.lua
+  ├── 📄 Texture.lua
+  ├── 📄 TextureCoords.lua
+├── 📄 Bindings.xml
+├── 📄 BossMods.lua
+├── 📄 BuffTrigger2.lua
+├── 📝 CHANGELOG.md
+├── 📝 CODE_OF_CONDUCT.md
+├── 📄 Compatibility.lua
+├── 📄 Conditions.lua
+├── 📋 cspell.json
+├── 📄 DebugLog.lua
+├── 📄 DefaultOptions.lua
+├── 📄 DiscordList.lua
+├── 📄 Dragonriding.lua
+├── 📄 embeds.xml
+├── 📄 Features.lua
+├── 📄 GenericTrigger.lua
+├── 📄 History.lua
+├── 📄 Init.lua
+├── 📄 Legendaries.lua
+    ├── 📄 AceComm-3.0.lua
+    ├── 📄 AceComm-3.0.xml
+    ├── 📄 ChatThrottleLib.lua
+    ├── 📄 AceSerializer-3.0.lua
+    ├── 📄 AceSerializer-3.0.xml
+    ├── 📄 AceTimer-3.0.lua
+    ├── 📄 AceTimer-3.0.xml
+    ├── 📄 Archivist.lua
+    ├── 📄 Archivist.toc
+    ├── 📄 Archivist.xml
+        ├── 📄 LibDeflate.lua
+        ├── 📄 LICENSE.txt
+        ├── 📄 LibStub.lua
+    ├── 📝 LICENSE.md
+      ├── 📄 RawData.lua
+      ├── 📄 ReadOnly.lua
+    ├── 📄 CallbackHandler-1.0.lua
+    ├── 📄 CallbackHandler-1.0.xml
+    ├── 📄 Chomp.toc
+    ├── 📄 Chomp.xml
+    ├── 📄 Internal.lua
+    ├── 📄 LICENSE.txt
+    ├── 📄 Public.lua
+    ├── 📝 README.md
+    ├── 📄 StringManip.lua
+    ├── 📄 lib.xml
+    ├── 📄 LibCompress.lua
+    ├── 📄 LibCompress.toc
+    ├── 📋 cspell.json
+    ├── 📄 LibCustomGlow-1.0.lua
+    ├── 📄 LibCustomGlow-1.0.toc
+    ├── 📄 LibCustomGlow-1.0.xml
+    ├── 📄 LICENSE
+    ├── 📝 README.md
+    ├── 📄 LibDataBroker-1.1.lua
+    ├── 📄 README.textile
+    ├── 📄 lib.xml
+    ├── 📄 LibDBIcon-1.0.lua
+    ├── 📄 lib.xml
+    ├── 📄 LibDeflate.lua
+    ├── 📄 LibDeflate.toc
+    ├── 📄 LICENSE.txt
+    ├── 📄 LibDispel.lua
+    ├── 📄 LICENSE.txt
+      ├── 📄 CallbackHandler-1.0.lua
+      ├── 📄 CallbackHandler-1.0.xml
+    ├── 📄 LibGetFrame-1.0.lua
+    ├── 📄 LibGetFrame-1.0.toc
+    ├── 📄 LibGetFrame-1.0.xml
+      ├── 📄 LibStub.lua
+      ├── 📄 LibStub.toc
+        ├── 📄 test.lua
+        ├── 📄 test2.lua
+        ├── 📄 test3.lua
+        ├── 📄 test4.lua
+    ├── 📄 LICENCE.txt
+    ├── 📝 README.md
+    ├── 📄 stylua.toml
+    ├── 📋 cspell.json
+    ├── 📄 LibRangeCheck-3.0_Cata.toc
+    ├── 📄 LibRangeCheck-3.0_Vanilla.toc
+    ├── 📄 LibRangeCheck-3.0.lua
+    ├── 📄 LibRangeCheck-3.0.toc
+    ├── 📄 LICENSE
+    ├── 📝 README.md
+    ├── 📄 stylua.toml
+    ├── 📄 lib.xml
+    ├── 📄 LibSerialize.lua
+    ├── 📄 lib.xml
+    ├── 📄 LibSharedMedia-3.0.lua
+    ├── 📄 LibSpecialization.lua
+    ├── 📄 lib.xml
+    ├── 📄 LibSpellRange-1.0.lua
+    ├── 📄 LibSpellRange-1.0.toc
+    ├── 📝 README.md
+    ├── 📄 LibStub.lua
+    ├── 📄 LibStub.toc
+      ├── 📄 test.lua
+      ├── 📄 test2.lua
+      ├── 📄 test3.lua
+      ├── 📄 test4.lua
+    ├── 📄 TaintLess.xml
+├── 📄 LibSpecializationWrapper.lua
+├── 📄 LICENSE
+├── 📄 locales.xml
+  ├── 📄 deDE.lua
+  ├── 📄 enUS.lua
+  ├── 📄 esES.lua
+  ├── 📄 esMX.lua
+  ├── 📄 frFR.lua
+  ├── 📄 itIT.lua
+  ├── 📄 koKR.lua
+  ├── 📄 ptBR.lua
+  ├── 📄 ruRU.lua
+  ├── 📄 zhCN.lua
+  ├── 📄 zhTW.lua
+  ├── 📄 Creative Commons - Attribution 3.0.txt
+  ├── 📄 Creative Commons - Attribution-NonCommercial 3.0.txt
+  ├── 📄 Creative Commons - CC0 1.0.txt
+  ├── 📄 Creative Commons - Sampling Plus 1.0.txt
+  ├── 📄 Fira License.txt
+  ├── 📄 Provided by.txt
+  ├── 📄 PT Sans License.txt
+├── 📄 Modernize.lua
+├── 📄 PatreonList.lua
+├── 📄 Profiling.lua
+├── 📄 Profiling.xml
+├── 📄 Prototypes.lua
+  ├── 📄 AuraBar.lua
+  ├── 📄 DynamicGroup.lua
+  ├── 📄 Empty.lua
+  ├── 📄 Group.lua
+  ├── 📄 Icon.lua
+  ├── 📄 Model.lua
+  ├── 📄 ProgressTexture.lua
+  ├── 📄 RegionPrototype.lua
+  ├── 📄 SmoothStatusBarMixin.lua
+  ├── 📄 StopMotion.lua
+  ├── 📄 Text.lua
+  ├── 📄 Texture.lua
+├── 📄 stylua.toml
+  ├── 📄 Background.lua
+  ├── 📄 Border.lua
+  ├── 📄 CircularProgressTexture.lua
+  ├── 📄 Glow.lua
+  ├── 📄 LinearProgressTexture.lua
+  ├── 📄 Model.lua
+  ├── 📄 StopMotion.lua
+  ├── 📄 SubText.lua
+  ├── 📄 Texture.lua
+  ├── 📄 Tick.lua
+├── 📄 SubscribableObject.lua
+├── 📄 TimeMachine.lua
+├── 📄 Transmission.lua
+├── 📄 TSUHelpers.lua
+├── 📄 Types_Cata.lua
+├── 📄 Types_Mists.lua
+├── 📄 Types_Retail.lua
+├── 📄 Types_Vanilla.lua
+├── 📄 Types.lua
+├── 📄 WeakAuras_Cata.toc
+├── 📄 WeakAuras_Mists.toc
+├── 📄 WeakAuras_Vanilla.toc
+├── 📄 WeakAuras.lua
+└── 📄 WeakAuras.toc
