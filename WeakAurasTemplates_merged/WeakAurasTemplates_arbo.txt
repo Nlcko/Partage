@@ -1,0 +1,27 @@
+WeakAurasTemplates/
+├── 
+├── .DS_Store
+├── AceGUI-Widgets
+│   └── AceGUIContainer-WeakAurasTemplateGroup.lua
+├── Locales
+│   ├── deDE.lua
+│   ├── enUS.lua
+│   ├── esES.lua
+│   ├── esMX.lua
+│   ├── frFR.lua
+│   ├── itIT.lua
+│   ├── koKR.lua
+│   ├── ptBR.lua
+│   ├── ruRU.lua
+│   ├── zhCN.lua
+│   └── zhTW.lua
+├── TriggerTemplates.lua
+├── TriggerTemplatesData.lua
+├── TriggerTemplatesDataCataclysm.lua
+├── TriggerTemplatesDataClassicEra.lua
+├── TriggerTemplatesDataMists.lua
+├── WeakAurasTemplates.toc
+├── WeakAurasTemplates_Cata.toc
+├── WeakAurasTemplates_Mists.toc
+├── WeakAurasTemplates_Vanilla.toc
+└── locales.xml
