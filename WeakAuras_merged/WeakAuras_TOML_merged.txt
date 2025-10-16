@@ -1,0 +1,30 @@
+=== MERGED TOML FILES FROM WeakAuras ===
+
+
+=== FILE: WeakAuras/Libs/LibGetFrame-1.0/stylua.toml ===
+indent_type = "Spaces"
+indent_width = 2
+column_width = 180
+line_endings = "Unix"
+quote_style = "ForceDouble"
+=== END OF FILE: WeakAuras/Libs/LibGetFrame-1.0/stylua.toml ===
+
+
+=== FILE: WeakAuras/Libs/LibRangeCheck-3.0/stylua.toml ===
+indent_type = "Spaces"
+indent_width = 2
+column_width = 180
+line_endings = "Unix"
+quote_style = "ForceDouble"
+
+=== END OF FILE: WeakAuras/Libs/LibRangeCheck-3.0/stylua.toml ===
+
+
+=== FILE: WeakAuras/stylua.toml ===
+indent_type = "Spaces"
+indent_width = 2
+column_width = 180
+line_endings = "Unix"
+
+=== END OF FILE: WeakAuras/stylua.toml ===
+
