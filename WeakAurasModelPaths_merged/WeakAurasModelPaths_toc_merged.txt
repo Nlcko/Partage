@@ -1,0 +1,103 @@
+# Merged TOC files from WeakAurasModelPaths
+# Generated on: 2025-10-16T01:08:39.443Z
+# Total files: 4
+
+
+================================================================================
+FILE: WeakAurasModelPaths/WeakAurasModelPaths.toc
+================================================================================
+
+## Interface: 110205
+## Title: WeakAuras Model Paths
+## Author: The WeakAuras Team
+## Version: 5.20.5
+## IconTexture: Interface\AddOns\WeakAuras\Media\Textures\icon.blp
+## Notes: Model paths for WeakAuras
+## Notes-esES: Las rutas de modelos para WeakAuras
+## Notes-esMX: Las rutas de modelos para WeakAuras
+## Notes-deDE: 3D-Model Pfade für WeakAuras
+## Notes-ruRU: Ссылки на файлы моделей WeakAuras
+## Notes-zhTW: WeakAuras的模組路徑
+## X-Category: Interface Enhancements
+## Globe-Main: WeakAuras
+## DefaultState: Enabled
+## LoadOnDemand: 1
+## Dependencies: WeakAuras, WeakAurasOptions
+
+ModelPaths.lua
+
+
+
+================================================================================
+FILE: WeakAurasModelPaths/WeakAurasModelPaths_Cata.toc
+================================================================================
+
+## Interface: 40402
+## Title: WeakAuras Model Paths
+## Author: The WeakAuras Team
+## Version: 5.20.5
+## Notes: Model paths for WeakAuras
+## Notes-esES: Las rutas de modelos para WeakAuras
+## Notes-esMX: Las rutas de modelos para WeakAuras
+## Notes-deDE: 3D-Model Pfade für WeakAuras
+## Notes-ruRU: Ссылки на файлы моделей WeakAuras
+## Notes-zhTW: WeakAuras的模組路徑
+## X-Category: Interface Enhancements
+## Globe-Main: WeakAuras
+## DefaultState: Enabled
+## LoadOnDemand: 1
+## Dependencies: WeakAuras, WeakAurasOptions
+## AllowLoadGameType: cata
+
+ModelPathsCata.lua
+
+
+
+================================================================================
+FILE: WeakAurasModelPaths/WeakAurasModelPaths_Mists.toc
+================================================================================
+
+## Interface: 50500
+## Title: WeakAuras Model Paths
+## Author: The WeakAuras Team
+## Version: 5.20.5
+## Notes: Model paths for WeakAuras
+## Notes-esES: Las rutas de modelos para WeakAuras
+## Notes-esMX: Las rutas de modelos para WeakAuras
+## Notes-deDE: 3D-Model Pfade für WeakAuras
+## Notes-ruRU: Ссылки на файлы моделей WeakAuras
+## Notes-zhTW: WeakAuras的模組路徑
+## X-Category: Interface Enhancements
+## Globe-Main: WeakAuras
+## DefaultState: Enabled
+## LoadOnDemand: 1
+## Dependencies: WeakAuras, WeakAurasOptions
+## AllowLoadGameType: mists
+
+ModelPathsMists.lua
+
+
+
+================================================================================
+FILE: WeakAurasModelPaths/WeakAurasModelPaths_Vanilla.toc
+================================================================================
+
+## Interface: 11507
+## Title: WeakAuras Model Paths
+## Author: The WeakAuras Team
+## Version: 5.20.5
+## Notes: Model paths for WeakAuras
+## Notes-esES: Las rutas de modelos para WeakAuras
+## Notes-esMX: Las rutas de modelos para WeakAuras
+## Notes-deDE: 3D-Model Pfade für WeakAuras
+## Notes-ruRU: Ссылки на файлы моделей WeakAuras
+## Notes-zhTW: WeakAuras的模組路徑
+## X-Category: Interface Enhancements
+## Globe-Main: WeakAuras
+## DefaultState: Enabled
+## LoadOnDemand: 1
+## Dependencies: WeakAuras, WeakAurasOptions
+
+ModelPathsClassicEra.lua
+
+
