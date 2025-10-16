@@ -1,0 +1,17 @@
+=== MERGED JSON FILES FROM WeakAuras ===
+
+
+=== FILE: WeakAuras/Libs/LibCustomGlow-1.0/cspell.json ===
+[object Object]
+=== END OF FILE: WeakAuras/Libs/LibCustomGlow-1.0/cspell.json ===
+
+
+=== FILE: WeakAuras/Libs/LibRangeCheck-3.0/cspell.json ===
+[object Object]
+=== END OF FILE: WeakAuras/Libs/LibRangeCheck-3.0/cspell.json ===
+
+
+=== FILE: WeakAuras/cspell.json ===
+[object Object]
+=== END OF FILE: WeakAuras/cspell.json ===
+
