@@ -1,0 +1,644 @@
+=== MERGED TOC FILES FROM WeakAuras ===
+
+
+=== FILE: WeakAuras/Libs/Archivist/Archivist.toc ===
+## Interface: 90005
+## Interface-Classic: 11307
+## Interface-BC: 20501
+## Title: Archivist
+## Author: emptyrivers
+## Version: v1.0.8
+## Notes: Flexible data archive.
+## SavedVariables: ACHV_DB
+## X-Curse-Project-ID: 354259
+
+# externals
+libs/LibStub/LibStub.lua
+libs/LibDeflate/LibDeflate.lua
+
+Archivist.lua
+
+# builtin stores
+stores/RawData.lua
+stores/ReadOnly.lua
+
+=== END OF FILE: WeakAuras/Libs/Archivist/Archivist.toc ===
+
+
+=== FILE: WeakAuras/Libs/Chomp/Chomp.toc ===
+## Interface: 100100
+## Interface-Wrath: 30401
+## Interface-TBC: 20504
+## Interface-Vanilla: 11403
+## Title: Chomp Message Library
+## Author: Justin Snelgrove
+## Version: ef8538b
+## IconAtlas: minortalents-icon-book
+## Notes: Battle.net and in-game messaging library with smart addon whispers.
+## OptionalDeps: CallbackHandler-1.0, ChatThrottleLib, LibStub
+## X-Category: Library
+## X-License: ISC
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\ChatThrottleLib\ChatThrottleLib.xml
+
+Chomp.xml
+
+=== END OF FILE: WeakAuras/Libs/Chomp/Chomp.toc ===
+
+
+=== FILE: WeakAuras/Libs/LibCompress/LibCompress.toc ===
+## Interface: 90002
+
+## Title: Lib: Compress
+## Notes: Compression and Decompression library
+## Author: Galmok at Stormrage-EU (Horde) and JJSheets
+## Version: r86-release
+## X-Website: http://www.wowace.com/addons/libcompress/
+## X-Category: Library
+## X-eMail: galmok AT gmail DOT com, sheets DOT jeff AT gmail DOT com
+## X-License: GPL v2
+## LoadOnDemand: 1
+
+LibStub\LibStub.lua
+lib.xml
+=== END OF FILE: WeakAuras/Libs/LibCompress/LibCompress.toc ===
+
+
+=== FILE: WeakAuras/Libs/LibCustomGlow-1.0/LibCustomGlow-1.0.toc ===
+## Interface: 110000, 110002
+## Title: Lib: CustomGlow
+## Notes: Creates custom glow functions
+## Author: deezo
+## X-Category: Library
+## X-License: BSD
+## Version: dc135fe
+## OptionalDeps: Masque
+
+LibStub\LibStub.lua
+
+LibCustomGlow-1.0.xml
+
+=== END OF FILE: WeakAuras/Libs/LibCustomGlow-1.0/LibCustomGlow-1.0.toc ===
+
+
+=== FILE: WeakAuras/Libs/LibDeflate/LibDeflate.toc ===
+## Interface: 80300
+## Title: Lib: LibDeflate
+## Notes: Compressor and decompressor with high compression ratio using DEFLATE/zlib format.
+## Author: Haoqian He (WoW: Safetyy at Illidan-US (Horde))
+## Version: afc3b78
+## X-Website: https://wow.curseforge.com/projects/libdeflate
+## X-Category: Library
+## X-License: zlib
+## X-Curse-Project-ID: 293814
+## X-WoWI-ID: 25453
+## X-Wago-ID: Xb6X5wKp
+
+LibStub\LibStub.lua
+lib.xml
+
+=== END OF FILE: WeakAuras/Libs/LibDeflate/LibDeflate.toc ===
+
+
+=== FILE: WeakAuras/Libs/LibGetFrame-1.0/LibGetFrame-1.0.toc ===
+## Interface: 90105
+## Title: Lib: GetFrame
+## Notes: Get unit frame for a unit
+## Author: Buds
+## X-Category: Library
+## X-License: BSD
+## Version: 0d449fa
+## DefaultState: Enabled
+## LoadOnDemand: 0
+
+LibStub\LibStub.lua
+
+LibGetFrame-1.0.xml
+
+=== END OF FILE: WeakAuras/Libs/LibGetFrame-1.0/LibGetFrame-1.0.toc ===
+
+
+=== FILE: WeakAuras/Libs/LibGetFrame-1.0/LibStub/LibStub.toc ===
+## Interface: 80000
+## Title: Lib: LibStub
+## Notes: Universal Library Stub
+## Credits: Kaelten, Cladhaire, ckknight, Mikk, Ammo, Nevcairiel
+## X-Website: http://www.wowace.com/addons/libstub/
+## X-Category: Library
+## X-License: Public Domain
+
+LibStub.lua
+
+=== END OF FILE: WeakAuras/Libs/LibGetFrame-1.0/LibStub/LibStub.toc ===
+
+
+=== FILE: WeakAuras/Libs/LibRangeCheck-3.0/LibRangeCheck-3.0.toc ===
+## Interface: 110000, 110002
+## Title: Lib: RangeCheck-3.0
+## Notes: A library to determine estimated range.
+## Author: The WoWUIDev Community
+## Version: 11d86a9
+## LoadOnDemand: 1
+## X-Curse-Project-ID: 887398
+## X-Category: Library
+## X-Credits: mitch0
+## X-License: MIT
+## X-Website: https://www.curseforge.com/wow/addons/librangecheck-3-0
+
+LibStub-1.0\LibStub.lua
+CallbackHandler-1.0\CallbackHandler-1.0.xml
+LibRangeCheck-3.0\LibRangeCheck-3.0.lua
+
+=== END OF FILE: WeakAuras/Libs/LibRangeCheck-3.0/LibRangeCheck-3.0.toc ===
+
+
+=== FILE: WeakAuras/Libs/LibRangeCheck-3.0/LibRangeCheck-3.0_Cata.toc ===
+## Interface: 40400
+## Title: Lib: RangeCheck-3.0
+## Notes: A library to determine estimated range.
+## Author: The WoWUIDev Community
+## Version: 11d86a9
+## LoadOnDemand: 1
+## X-Category: Library
+## X-Credits: mitch0
+## X-License: MIT
+## X-Website: https://www.curseforge.com/wow/addons/librangecheck-3-0
+
+LibStub-1.0\LibStub.lua
+CallbackHandler-1.0\CallbackHandler-1.0.xml
+LibRangeCheck-3.0\LibRangeCheck-3.0.lua
+
+=== END OF FILE: WeakAuras/Libs/LibRangeCheck-3.0/LibRangeCheck-3.0_Cata.toc ===
+
+
+=== FILE: WeakAuras/Libs/LibRangeCheck-3.0/LibRangeCheck-3.0_Vanilla.toc ===
+## Interface: 11403
+## Title: Lib: RangeCheck-3.0
+## Notes: A library to determine estimated range.
+## Author: The WoWUIDev Community
+## Version: 11d86a9
+## LoadOnDemand: 1
+## X-Category: Library
+## X-Credits: mitch0
+## X-License: MIT
+## X-Website: https://www.curseforge.com/wow/addons/librangecheck-3-0
+
+LibStub-1.0\LibStub.lua
+CallbackHandler-1.0\CallbackHandler-1.0.xml
+LibRangeCheck-3.0\LibRangeCheck-3.0.lua
+
+=== END OF FILE: WeakAuras/Libs/LibRangeCheck-3.0/LibRangeCheck-3.0_Vanilla.toc ===
+
+
+=== FILE: WeakAuras/Libs/LibSpellRange-1.0/LibSpellRange-1.0.toc ===
+## Interface: 100001
+## Version: 1.0.17
+## X-CompatibleWith: 80000
+## Title: Lib: SpellRange-1.0
+## Notes: Provides enhanced spell range checking functionality
+## Author: Cybeloras of Aerie Peak
+## X-Category: Library
+
+libs\LibStub\LibStub.lua
+
+lib.xml
+
+=== END OF FILE: WeakAuras/Libs/LibSpellRange-1.0/LibSpellRange-1.0.toc ===
+
+
+=== FILE: WeakAuras/Libs/LibStub/LibStub.toc ===
+## Interface: 90005
+## Title: Lib: LibStub
+## Notes: Universal Library Stub
+## Credits: Kaelten, Cladhaire, ckknight, Mikk, Ammo, Nevcairiel
+## X-Website: http://www.wowace.com/addons/libstub/
+## X-Category: Library
+## X-License: Public Domain
+
+LibStub.lua
+
+=== END OF FILE: WeakAuras/Libs/LibStub/LibStub.toc ===
+
+
+=== FILE: WeakAuras/WeakAuras.toc ===
+## Interface: 110205
+## Title: WeakAuras
+## Author: The WeakAuras Team
+## Version: 5.20.5
+## IconTexture: Interface\AddOns\WeakAuras\Media\Textures\icon.blp
+## X-Flavor: Mainline
+## Notes: A powerful, comprehensive utility for displaying graphics and information based on buffs, debuffs, and other triggers.
+## Notes-esES: Potente y completa aplicación que te permitirá mostrar por pantalla múltiples diseños, basados en beneficios, perjuicios y otros activadores.
+## Notes-esMX: Potente y completa aplicación que te permitirá mostrar por pantalla múltiples diseños, basados en beneficios, perjuicios y otros activadores.
+## Notes-deDE: Ein leistungsfähiges, umfassendes Addon zur grafischen Darstellung von Informationen von Auren, Cooldowns, Timern und vielem mehr.
+## Notes-ruRU: Мощный, многосторонний инструмент для отображения графики и информации, основанной на баффах, дебаффах и других триггерах.
+## Notes-zhTW: 一個強大且全面實用的顯示圖形和訊息基於增益，減益和其它觸發。
+## X-Category: Interface Enhancements
+## Globe-Post: WeakAurasOptions, WeakAurasModelPaths, WeakAurasTemplates
+## X-Website: https://www.curseforge.com/wow/addons/weakauras
+## X-Curse-Project-ID: 65387
+## X-WoWI-ID: 24910
+## X-Wago-ID: VBNBxKx5
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: WeakAurasSaved
+## OptionalDeps: Ace3, LibCompress, LibSharedMedia-3.0, AceGUI-3.0-SharedMediaWidgets, Masque, GTFO, LibButtonGlow-1.0, LibSpellRange-1.0, LibRangeCheck-3.0, LibDBIcon-1.0, LibGetFrame-1.0, LibSpecialization, !LibUIDropDownMenu, !!AddonLocale, CustomNames, BigWigs, DBM-Core
+
+# External code + initialization
+embeds.xml
+
+# TaintLess
+Libs\TaintLess\TaintLess.xml
+
+# Client flavor specific libs
+Libs\LibSpecialization\LibSpecialization.lua
+Libs\LibDispel\LibDispel.lua
+
+Init.lua
+Compatibility.lua
+locales.xml
+ArchiveTypes\Repository.lua
+DefaultOptions.lua
+
+# Core files
+SubscribableObject.lua
+Features.lua
+TimeMachine.lua
+Types_Retail.lua
+Types.lua
+Prototypes.lua
+Profiling.lua
+Profiling.xml
+WeakAuras.lua
+History.lua
+Transmission.lua
+Modernize.lua
+Animations.lua
+Conditions.lua
+AnchorToWeakAuras.lua
+
+# Trigger systems
+LibSpecializationWrapper.lua
+BuffTrigger2.lua
+GenericTrigger.lua
+BossMods.lua
+
+# Helper Systems
+TSUHelpers.lua
+AuraWarnings.lua
+AuraEnvironment.lua
+AuraEnvironmentWrappedSystems.lua
+DebugLog.lua
+Dragonriding.lua
+
+# Region support
+RegionTypes\SmoothStatusBarMixin.lua
+RegionTypes\RegionPrototype.lua
+RegionTypes\Empty.lua
+BaseRegions\TextureCoords.lua
+BaseRegions\CircularProgressTexture.lua
+BaseRegions\LinearProgressTexture.lua
+RegionTypes\ProgressTexture.lua
+BaseRegions\Texture.lua
+RegionTypes\Texture.lua
+RegionTypes\AuraBar.lua
+RegionTypes\Icon.lua
+RegionTypes\Text.lua
+RegionTypes\Group.lua
+RegionTypes\DynamicGroup.lua
+BaseRegions\StopMotion.lua
+RegionTypes\StopMotion.lua
+RegionTypes\Model.lua
+
+# Sub-region support
+SubRegionTypes\Background.lua
+SubRegionTypes\SubText.lua
+SubRegionTypes\Border.lua
+SubRegionTypes\Glow.lua
+SubRegionTypes\Tick.lua
+SubRegionTypes\Model.lua
+SubRegionTypes\StopMotion.lua
+SubRegionTypes\Texture.lua
+SubRegionTypes\CircularProgressTexture.lua
+SubRegionTypes\LinearProgressTexture.lua
+
+# Misc
+Legendaries.lua
+DiscordList.lua
+
+=== END OF FILE: WeakAuras/WeakAuras.toc ===
+
+
+=== FILE: WeakAuras/WeakAuras_Cata.toc ===
+## Interface: 40402
+## Title: WeakAuras
+## Author: The WeakAuras Team
+## Version: 5.20.5
+## X-Flavor: Cata
+## Notes: A powerful, comprehensive utility for displaying graphics and information based on buffs, debuffs, and other triggers.
+## Notes-esES: Potente y completa aplicación que te permitirá mostrar por pantalla múltiples diseños, basados en beneficios, perjuicios y otros activadores.
+## Notes-esMX: Potente y completa aplicación que te permitirá mostrar por pantalla múltiples diseños, basados en beneficios, perjuicios y otros activadores.
+## Notes-deDE: Ein leistungsfähiges, umfassendes Addon zur grafischen Darstellung von Informationen von Auren, Cooldowns, Timern und vielem mehr.
+## Notes-ruRU: Мощный, многосторонний инструмент для отображения графики и информации, основанной на баффах, дебаффах и других триггерах.
+## Notes-zhTW: 一個強大且全面實用的顯示圖形和訊息基於增益，減益和其它觸發。
+## X-Category: Interface Enhancements
+## Globe-Post: WeakAurasOptions, WeakAurasModelPaths, WeakAurasTemplates
+## X-Website: https://www.curseforge.com/wow/addons/weakauras
+## X-Curse-Project-ID: 65387
+## X-WoWI-ID: 24910
+## X-Wago-ID: VBNBxKx5
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: WeakAurasSaved
+## OptionalDeps: Ace3, LibCompress, LibSharedMedia-3.0, AceGUI-3.0-SharedMediaWidgets, Masque, GTFO, LibButtonGlow-1.0, LibSpellRange-1.0, LibRangeCheck-3.0, LibDBIcon-1.0, LibGetFrame-1.0, !LibUIDropDownMenu, !!AddonLocale, CustomNames, BigWigs, DBM-Core
+## AllowLoadGameType: cata
+
+# External code + initialization
+embeds.xml
+
+# TaintLess
+Libs\TaintLess\TaintLess.xml
+
+# Client flavor specific libs
+Libs\LibSpecialization\LibSpecialization.lua
+
+Init.lua
+Compatibility.lua
+locales.xml
+ArchiveTypes\Repository.lua
+DefaultOptions.lua
+
+# Core files
+SubscribableObject.lua
+Features.lua
+TimeMachine.lua
+Atlas_Cata.lua
+Types_Cata.lua
+Types.lua
+Prototypes.lua
+Profiling.lua
+Profiling.xml
+WeakAuras.lua
+History.lua
+Transmission.lua
+Modernize.lua
+Animations.lua
+Conditions.lua
+AnchorToWeakAuras.lua
+
+# Trigger systems
+LibSpecializationWrapper.lua
+BuffTrigger2.lua
+GenericTrigger.lua
+BossMods.lua
+
+# Helper Systems
+TSUHelpers.lua
+AuraWarnings.lua
+AuraEnvironment.lua
+AuraEnvironmentWrappedSystems.lua
+DebugLog.lua
+
+# Region support
+RegionTypes\SmoothStatusBarMixin.lua
+RegionTypes\RegionPrototype.lua
+RegionTypes\Empty.lua
+BaseRegions\TextureCoords.lua
+BaseRegions\CircularProgressTexture.lua
+BaseRegions\LinearProgressTexture.lua
+RegionTypes\ProgressTexture.lua
+BaseRegions\Texture.lua
+RegionTypes\Texture.lua
+RegionTypes\AuraBar.lua
+RegionTypes\Icon.lua
+RegionTypes\Text.lua
+RegionTypes\Group.lua
+RegionTypes\DynamicGroup.lua
+BaseRegions\StopMotion.lua
+RegionTypes\StopMotion.lua
+RegionTypes\Model.lua
+
+# Sub-region support
+SubRegionTypes\Background.lua
+SubRegionTypes\SubText.lua
+SubRegionTypes\Border.lua
+SubRegionTypes\Glow.lua
+SubRegionTypes\Tick.lua
+SubRegionTypes\Model.lua
+SubRegionTypes\StopMotion.lua
+SubRegionTypes\Texture.lua
+SubRegionTypes\CircularProgressTexture.lua
+SubRegionTypes\LinearProgressTexture.lua
+
+#Misc
+DiscordList.lua
+
+=== END OF FILE: WeakAuras/WeakAuras_Cata.toc ===
+
+
+=== FILE: WeakAuras/WeakAuras_Mists.toc ===
+## Interface: 50500
+## Title: WeakAuras
+## Author: The WeakAuras Team
+## Version: 5.20.5
+## X-Flavor: Mists
+## Notes: A powerful, comprehensive utility for displaying graphics and information based on buffs, debuffs, and other triggers.
+## Notes-esES: Potente y completa aplicación que te permitirá mostrar por pantalla múltiples diseños, basados en beneficios, perjuicios y otros activadores.
+## Notes-esMX: Potente y completa aplicación que te permitirá mostrar por pantalla múltiples diseños, basados en beneficios, perjuicios y otros activadores.
+## Notes-deDE: Ein leistungsfähiges, umfassendes Addon zur grafischen Darstellung von Informationen von Auren, Cooldowns, Timern und vielem mehr.
+## Notes-ruRU: Мощный, многосторонний инструмент для отображения графики и информации, основанной на баффах, дебаффах и других триггерах.
+## Notes-zhTW: 一個強大且全面實用的顯示圖形和訊息基於增益，減益和其它觸發。
+## X-Category: Interface Enhancements
+## Globe-Post: WeakAurasOptions, WeakAurasModelPaths, WeakAurasTemplates
+## X-Website: https://www.curseforge.com/wow/addons/weakauras
+## X-Curse-Project-ID: 65387
+## X-WoWI-ID: 24910
+## X-Wago-ID: VBNBxKx5
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: WeakAurasSaved
+## OptionalDeps: Ace3, LibCompress, LibSharedMedia-3.0, AceGUI-3.0-SharedMediaWidgets, Masque, GTFO, LibButtonGlow-1.0, LibSpellRange-1.0, LibRangeCheck-3.0, LibDBIcon-1.0, LibGetFrame-1.0, !LibUIDropDownMenu, !!AddonLocale, CustomNames, BigWigs, DBM-Core
+## AllowLoadGameType: mists
+
+# External code + initialization
+embeds.xml
+
+# TaintLess
+Libs\TaintLess\TaintLess.xml
+
+# Client flavor specific libs
+Libs\LibSpecialization\LibSpecialization.lua
+
+Init.lua
+Compatibility.lua
+locales.xml
+ArchiveTypes\Repository.lua
+DefaultOptions.lua
+
+# Core files
+SubscribableObject.lua
+Features.lua
+TimeMachine.lua
+Types_Mists.lua
+Types.lua
+Prototypes.lua
+Profiling.lua
+Profiling.xml
+WeakAuras.lua
+History.lua
+Transmission.lua
+Modernize.lua
+Animations.lua
+Conditions.lua
+AnchorToWeakAuras.lua
+
+# Trigger systems
+LibSpecializationWrapper.lua
+BuffTrigger2.lua
+GenericTrigger.lua
+BossMods.lua
+
+# Helper Systems
+TSUHelpers.lua
+AuraWarnings.lua
+AuraEnvironment.lua
+AuraEnvironmentWrappedSystems.lua
+DebugLog.lua
+
+# Region support
+RegionTypes\SmoothStatusBarMixin.lua
+RegionTypes\RegionPrototype.lua
+RegionTypes\Empty.lua
+BaseRegions\TextureCoords.lua
+BaseRegions\CircularProgressTexture.lua
+BaseRegions\LinearProgressTexture.lua
+RegionTypes\ProgressTexture.lua
+BaseRegions\Texture.lua
+RegionTypes\Texture.lua
+RegionTypes\AuraBar.lua
+RegionTypes\Icon.lua
+RegionTypes\Text.lua
+RegionTypes\Group.lua
+RegionTypes\DynamicGroup.lua
+BaseRegions\StopMotion.lua
+RegionTypes\StopMotion.lua
+RegionTypes\Model.lua
+
+# Sub-region support
+SubRegionTypes\Background.lua
+SubRegionTypes\SubText.lua
+SubRegionTypes\Border.lua
+SubRegionTypes\Glow.lua
+SubRegionTypes\Tick.lua
+SubRegionTypes\Model.lua
+SubRegionTypes\StopMotion.lua
+SubRegionTypes\Texture.lua
+SubRegionTypes\CircularProgressTexture.lua
+SubRegionTypes\LinearProgressTexture.lua
+
+#Misc
+DiscordList.lua
+
+=== END OF FILE: WeakAuras/WeakAuras_Mists.toc ===
+
+
+=== FILE: WeakAuras/WeakAuras_Vanilla.toc ===
+## Interface: 11507
+## Title: WeakAuras
+## Author: The WeakAuras Team
+## Version: 5.20.5
+## X-Flavor: Vanilla
+## Notes: A powerful, comprehensive utility for displaying graphics and information based on buffs, debuffs, and other triggers.
+## Notes-esES: Potente y completa aplicación que te permitirá mostrar por pantalla múltiples diseños, basados en beneficios, perjuicios y otros activadores.
+## Notes-esMX: Potente y completa aplicación que te permitirá mostrar por pantalla múltiples diseños, basados en beneficios, perjuicios y otros activadores.
+## Notes-deDE: Ein leistungsfähiges, umfassendes Addon zur grafischen Darstellung von Informationen von Auren, Cooldowns, Timern und vielem mehr.
+## Notes-ruRU: Мощный, многосторонний инструмент для отображения графики и информации, основанной на баффах, дебаффах и других триггерах.
+## Notes-zhTW: 一個強大且全面實用的顯示圖形和訊息基於增益，減益和其它觸發。
+## X-Category: Interface Enhancements
+## Globe-Post: WeakAurasOptions, WeakAurasModelPaths, WeakAurasTemplates
+## X-Website: https://www.curseforge.com/wow/addons/weakauras
+## X-Curse-Project-ID: 65387
+## X-WoWI-ID: 24910
+## X-Wago-ID: VBNBxKx5
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: WeakAurasSaved
+## OptionalDeps: Ace3, LibCompress, LibSharedMedia-3.0, AceGUI-3.0-SharedMediaWidgets, Masque, GTFO, LibButtonGlow-1.0, LibSpellRange-1.0, LibRangeCheck-3.0, LibDBIcon-1.0, LibGetFrame-1.0, !LibUIDropDownMenu, !!AddonLocale, CustomNames, BigWigs, DBM-Core
+
+# External code + initialization
+embeds.xml
+
+Init.lua
+Compatibility.lua
+locales.xml
+ArchiveTypes\Repository.lua
+DefaultOptions.lua
+
+# Core files
+SubscribableObject.lua
+Features.lua
+TimeMachine.lua
+Atlas_Vanilla.lua
+Types_Vanilla.lua
+Types.lua
+Prototypes.lua
+Profiling.lua
+Profiling.xml
+WeakAuras.lua
+History.lua
+Transmission.lua
+Modernize.lua
+Animations.lua
+Conditions.lua
+AnchorToWeakAuras.lua
+
+# Trigger systems
+BuffTrigger2.lua
+GenericTrigger.lua
+BossMods.lua
+
+# Helper Systems
+TSUHelpers.lua
+AuraWarnings.lua
+AuraEnvironment.lua
+AuraEnvironmentWrappedSystems.lua
+DebugLog.lua
+
+# Region support
+RegionTypes\SmoothStatusBarMixin.lua
+RegionTypes\RegionPrototype.lua
+RegionTypes\Empty.lua
+BaseRegions\TextureCoords.lua
+BaseRegions\CircularProgressTexture.lua
+BaseRegions\LinearProgressTexture.lua
+RegionTypes\ProgressTexture.lua
+BaseRegions\Texture.lua
+RegionTypes\Texture.lua
+RegionTypes\AuraBar.lua
+RegionTypes\Icon.lua
+RegionTypes\Text.lua
+RegionTypes\Group.lua
+RegionTypes\DynamicGroup.lua
+BaseRegions\StopMotion.lua
+RegionTypes\StopMotion.lua
+RegionTypes\Model.lua
+
+# Sub-region support
+SubRegionTypes\Background.lua
+SubRegionTypes\SubText.lua
+SubRegionTypes\Border.lua
+SubRegionTypes\Glow.lua
+SubRegionTypes\Tick.lua
+SubRegionTypes\Model.lua
+SubRegionTypes\StopMotion.lua
+SubRegionTypes\Texture.lua
+SubRegionTypes\CircularProgressTexture.lua
+SubRegionTypes\LinearProgressTexture.lua
+
+#Misc
+DiscordList.lua
+
+=== END OF FILE: WeakAuras/WeakAuras_Vanilla.toc ===
+
