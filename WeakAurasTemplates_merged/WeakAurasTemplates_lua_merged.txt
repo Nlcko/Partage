@@ -1,5 +1,5 @@
 # Merged LUA files from WeakAurasTemplates
-# Generated on: 2025-10-16T01:09:05.841Z
+# Generated on: 2025-10-16T01:11:54.579Z
 # Total files: 17
 
 
