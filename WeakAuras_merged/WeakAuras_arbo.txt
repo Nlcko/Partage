@@ -1,0 +1,796 @@
+WeakAuras/
+├── 
+├── .DS_Store
+├── AnchorToWeakAuras.lua
+├── Animations.lua
+├── ArchiveTypes
+│   └── Repository.lua
+├── Atlas_Cata.lua
+├── Atlas_Vanilla.lua
+├── AuraEnvironment.lua
+├── AuraEnvironmentWrappedSystems.lua
+├── AuraWarnings.lua
+├── BaseRegions
+│   ├── CircularProgressTexture.lua
+│   ├── LinearProgressTexture.lua
+│   ├── StopMotion.lua
+│   ├── Texture.lua
+│   └── TextureCoords.lua
+├── Bindings.xml
+├── BossMods.lua
+├── BuffTrigger2.lua
+├── CHANGELOG.md
+├── CODE_OF_CONDUCT.md
+├── Compatibility.lua
+├── Conditions.lua
+├── DebugLog.lua
+├── DefaultOptions.lua
+├── DiscordList.lua
+├── Dragonriding.lua
+├── Features.lua
+├── GenericTrigger.lua
+├── History.lua
+├── Init.lua
+├── LICENSE
+├── Legendaries.lua
+├── LibSpecializationWrapper.lua
+├── Libs
+│   ├── .DS_Store
+│   ├── AceComm-3.0
+│   │   ├── AceComm-3.0.lua
+│   │   ├── AceComm-3.0.xml
+│   │   └── ChatThrottleLib.lua
+│   ├── AceSerializer-3.0
+│   │   ├── AceSerializer-3.0.lua
+│   │   └── AceSerializer-3.0.xml
+│   ├── AceTimer-3.0
+│   │   ├── AceTimer-3.0.lua
+│   │   └── AceTimer-3.0.xml
+│   ├── Archivist
+│   │   ├── .DS_Store
+│   │   ├── Archivist.lua
+│   │   ├── Archivist.toc
+│   │   ├── Archivist.xml
+│   │   ├── LICENSE.md
+│   │   ├── libs
+│   │   │   ├── LibDeflate
+│   │   │   │   ├── LICENSE.txt
+│   │   │   │   └── LibDeflate.lua
+│   │   │   └── LibStub
+│   │   │       └── LibStub.lua
+│   │   └── stores
+│   │       ├── RawData.lua
+│   │       └── ReadOnly.lua
+│   ├── CallbackHandler-1.0
+│   │   ├── CallbackHandler-1.0.lua
+│   │   └── CallbackHandler-1.0.xml
+│   ├── Chomp
+│   │   ├── Chomp.toc
+│   │   ├── Chomp.xml
+│   │   ├── Internal.lua
+│   │   ├── LICENSE.txt
+│   │   ├── Public.lua
+│   │   ├── README.md
+│   │   └── StringManip.lua
+│   ├── LibCompress
+│   │   ├── LibCompress.lua
+│   │   ├── LibCompress.toc
+│   │   └── lib.xml
+│   ├── LibCustomGlow-1.0
+│   │   ├── LICENSE
+│   │   ├── LibCustomGlow-1.0.lua
+│   │   ├── LibCustomGlow-1.0.toc
+│   │   ├── LibCustomGlow-1.0.xml
+│   │   ├── README.md
+│   │   └── cspell.json
+│   ├── LibDBIcon-1.0
+│   │   ├── LibDBIcon-1.0.lua
+│   │   └── lib.xml
+│   ├── LibDataBroker-1.1
+│   │   ├── LibDataBroker-1.1.lua
+│   │   └── README.textile
+│   ├── LibDeflate
+│   │   ├── LICENSE.txt
+│   │   ├── LibDeflate.lua
+│   │   ├── LibDeflate.toc
+│   │   └── lib.xml
+│   ├── LibDispel
+│   │   ├── LICENSE.txt
+│   │   └── LibDispel.lua
+│   ├── LibGetFrame-1.0
+│   │   ├── .DS_Store
+│   │   ├── CallbackHandler-1.0
+│   │   │   ├── CallbackHandler-1.0.lua
+│   │   │   └── CallbackHandler-1.0.xml
+│   │   ├── LICENCE.txt
+│   │   ├── LibGetFrame-1.0.lua
+│   │   ├── LibGetFrame-1.0.toc
+│   │   ├── LibGetFrame-1.0.xml
+│   │   ├── LibStub
+│   │   │   ├── LibStub.lua
+│   │   │   ├── LibStub.toc
+│   │   │   └── tests
+│   │   │       ├── test.lua
+│   │   │       ├── test2.lua
+│   │   │       ├── test3.lua
+│   │   │       └── test4.lua
+│   │   ├── README.md
+│   │   └── stylua.toml
+│   ├── LibRangeCheck-3.0
+│   │   ├── LICENSE
+│   │   ├── LibRangeCheck-3.0.lua
+│   │   ├── LibRangeCheck-3.0.toc
+│   │   ├── LibRangeCheck-3.0_Cata.toc
+│   │   ├── LibRangeCheck-3.0_Vanilla.toc
+│   │   ├── README.md
+│   │   ├── cspell.json
+│   │   └── stylua.toml
+│   ├── LibSerialize
+│   │   ├── LibSerialize.lua
+│   │   └── lib.xml
+│   ├── LibSharedMedia-3.0
+│   │   ├── LibSharedMedia-3.0.lua
+│   │   └── lib.xml
+│   ├── LibSpecialization
+│   │   └── LibSpecialization.lua
+│   ├── LibSpellRange-1.0
+│   │   ├── LibSpellRange-1.0.lua
+│   │   ├── LibSpellRange-1.0.toc
+│   │   ├── README.md
+│   │   └── lib.xml
+│   ├── LibStub
+│   │   ├── LibStub.lua
+│   │   ├── LibStub.toc
+│   │   └── tests
+│   │       ├── test.lua
+│   │       ├── test2.lua
+│   │       ├── test3.lua
+│   │       └── test4.lua
+│   └── TaintLess
+│       └── TaintLess.xml
+├── Locales
+│   ├── deDE.lua
+│   ├── enUS.lua
+│   ├── esES.lua
+│   ├── esMX.lua
+│   ├── frFR.lua
+│   ├── itIT.lua
+│   ├── koKR.lua
+│   ├── ptBR.lua
+│   ├── ruRU.lua
+│   ├── zhCN.lua
+│   └── zhTW.lua
+├── Media
+│   ├── Creative Commons - Attribution 3.0.txt
+│   ├── Creative Commons - Attribution-NonCommercial 3.0.txt
+│   ├── Creative Commons - CC0 1.0.txt
+│   ├── Creative Commons - Sampling Plus 1.0.txt
+│   ├── Fira License.txt
+│   ├── Fonts
+│   │   ├── FiraMono-Medium.ttf
+│   │   ├── FiraSans-Heavy.ttf
+│   │   ├── FiraSans-Medium.ttf
+│   │   ├── FiraSansCondensed-Heavy.ttf
+│   │   ├── FiraSansCondensed-Medium.ttf
+│   │   ├── PTSansNarrow-Bold.ttf
+│   │   └── PTSansNarrow-Regular.ttf
+│   ├── PT Sans License.txt
+│   ├── Provided by.txt
+│   ├── Sounds
+│   │   ├── AcousticGuitar.ogg
+│   │   ├── Adds.ogg
+│   │   ├── AirHorn.ogg
+│   │   ├── Applause.ogg
+│   │   ├── BananaPeelSlip.ogg
+│   │   ├── BatmanPunch.ogg
+│   │   ├── BikeHorn.ogg
+│   │   ├── Blast.ogg
+│   │   ├── Bleat.ogg
+│   │   ├── Boss.ogg
+│   │   ├── BoxingArenaSound.ogg
+│   │   ├── Brass.mp3
+│   │   ├── CartoonVoiceBaritone.ogg
+│   │   ├── CartoonWalking.ogg
+│   │   ├── CatMeow2.ogg
+│   │   ├── ChickenAlarm.ogg
+│   │   ├── Circle.ogg
+│   │   ├── CowMooing.ogg
+│   │   ├── Cross.ogg
+│   │   ├── Diamond.ogg
+│   │   ├── DontRelease.ogg
+│   │   ├── DoubleWhoosh.ogg
+│   │   ├── Drums.ogg
+│   │   ├── Empowered.ogg
+│   │   ├── ErrorBeep.ogg
+│   │   ├── Focus.ogg
+│   │   ├── Glass.mp3
+│   │   ├── GoatBleating.ogg
+│   │   ├── HeartbeatSingle.ogg
+│   │   ├── Idiot.ogg
+│   │   ├── KittenMeow.ogg
+│   │   ├── Left.ogg
+│   │   ├── Moon.ogg
+│   │   ├── Next.ogg
+│   │   ├── OhNo.ogg
+│   │   ├── Portal.ogg
+│   │   ├── Protected.ogg
+│   │   ├── Release.ogg
+│   │   ├── Right.ogg
+│   │   ├── RingingPhone.ogg
+│   │   ├── RoaringLion.ogg
+│   │   ├── RobotBlip.ogg
+│   │   ├── RoosterChickenCalls.ogg
+│   │   ├── RunAway.ogg
+│   │   ├── SharpPunch.ogg
+│   │   ├── SheepBleat.ogg
+│   │   ├── Shotgun.ogg
+│   │   ├── Skull.ogg
+│   │   ├── Spread.ogg
+│   │   ├── Square.ogg
+│   │   ├── SqueakyToyShort.ogg
+│   │   ├── SquishFart.ogg
+│   │   ├── Stack.ogg
+│   │   ├── Star.ogg
+│   │   ├── Switch.ogg
+│   │   ├── SynthChord.ogg
+│   │   ├── TadaFanfare.ogg
+│   │   ├── Taunt.ogg
+│   │   ├── TempleBellHuge.ogg
+│   │   ├── Torch.ogg
+│   │   ├── Triangle.ogg
+│   │   ├── WarningSiren.ogg
+│   │   ├── WaterDrop.ogg
+│   │   └── Xylophone.ogg
+│   └── Textures
+│       ├── Border_DropShadow.blp
+│       ├── Circle_AlphaGradient_In.tga
+│       ├── Circle_AlphaGradient_Out.tga
+│       ├── Circle_Smooth.tga
+│       ├── Circle_Smooth2.tga
+│       ├── Circle_Smooth_Border.tga
+│       ├── Circle_Squirrel.tga
+│       ├── Circle_Squirrel_Border.tga
+│       ├── Circle_White.tga
+│       ├── Circle_White_Border.tga
+│       ├── GitHub.tga
+│       ├── PRDFrame.tga
+│       ├── PRDFrameKui.tga
+│       ├── Ring_10px.tga
+│       ├── Ring_20px.tga
+│       ├── Ring_30px.tga
+│       ├── Ring_40px.tga
+│       ├── Square_AlphaGradient.tga
+│       ├── Square_FullWhite.tga
+│       ├── Square_Smooth.tga
+│       ├── Square_Smooth_Border.tga
+│       ├── Square_Smooth_Border2.tga
+│       ├── Square_Squirrel.tga
+│       ├── Square_Squirrel_Border.tga
+│       ├── Square_White.tga
+│       ├── Square_White_Border.tga
+│       ├── Statusbar_Clean.blp
+│       ├── Statusbar_Stripes.blp
+│       ├── Statusbar_Stripes_Thick.blp
+│       ├── Statusbar_Stripes_Thin.blp
+│       ├── StripedTexture.tga
+│       ├── Trapezoid.tga
+│       ├── Triangle45.tga
+│       ├── add.tga
+│       ├── arrows_target.tga
+│       ├── browse.tga
+│       ├── bug_report.tga
+│       ├── bullet1.tga
+│       ├── bullet2.tga
+│       ├── bullet3.tga
+│       ├── cancel-icon.tga
+│       ├── cancel-mark.tga
+│       ├── circle_border5.tga
+│       ├── collapse.tga
+│       ├── delete.tga
+│       ├── discord.tga
+│       ├── downleft.tga
+│       ├── downright.tga
+│       ├── duplicate.tga
+│       ├── edge-example.tga
+│       ├── edit.tga
+│       ├── editdown.tga
+│       ├── emoji.tga
+│       ├── exclamation-mark.tga
+│       ├── expand.tga
+│       ├── eyes.tga
+│       ├── gear.tga
+│       ├── geardown.tga
+│       ├── icon.blp
+│       ├── importsmall.tga
+│       ├── info.tga
+│       ├── interrupt.tga
+│       ├── loaded.tga
+│       ├── lockPosition.tga
+│       ├── logo_256.tga
+│       ├── logo_256_round.tga
+│       ├── logo_256_round_pride.tga
+│       ├── logo_64.tga
+│       ├── logo_64_nobg.tga
+│       ├── magnetic.tga
+│       ├── movedown.tga
+│       ├── moveup.tga
+│       ├── newaura.tga
+│       ├── offscreen.tga
+│       ├── ok-icon.tga
+│       ├── rainbowbar.tga
+│       ├── reset.tga
+│       ├── ring_glow3.tga
+│       ├── sidebar.tga
+│       ├── spinboxleft.tga
+│       ├── spinboxlefth.tga
+│       ├── spinboxleftp.tga
+│       ├── spinboxoverlay.tga
+│       ├── spinboxright.tga
+│       ├── spinboxrighth.tga
+│       ├── spinboxrightp.tga
+│       ├── square_border_10px.tga
+│       ├── square_border_1px.tga
+│       ├── square_border_5px.tga
+│       ├── square_mini.tga
+│       ├── standby.tga
+│       ├── stopmotion.blp
+│       ├── stripe-bar.tga
+│       ├── stripe-rainbow-bar.tga
+│       ├── swipe-example.tga
+│       ├── target_indicator.tga
+│       ├── target_indicator_glow.tga
+│       ├── targeting-mark.tga
+│       ├── template.tga
+│       ├── triangle-border.tga
+│       ├── triangle.tga
+│       ├── unloaded.tga
+│       ├── upleft.tga
+│       ├── upright.tga
+│       ├── wago.tga
+│       ├── wagoupdate_logo.tga
+│       ├── wagoupdate_refresh.tga
+│       └── waheart.tga
+├── Modernize.lua
+├── PatreonList.lua
+├── PowerAurasMedia
+│   ├── Auras
+│   │   ├── Aura1.tga
+│   │   ├── Aura10.tga
+│   │   ├── Aura100.tga
+│   │   ├── Aura101.tga
+│   │   ├── Aura102.tga
+│   │   ├── Aura103.tga
+│   │   ├── Aura104.tga
+│   │   ├── Aura105.tga
+│   │   ├── Aura106.tga
+│   │   ├── Aura107.tga
+│   │   ├── Aura108.tga
+│   │   ├── Aura109.tga
+│   │   ├── Aura11.tga
+│   │   ├── Aura110.tga
+│   │   ├── Aura111.tga
+│   │   ├── Aura112.tga
+│   │   ├── Aura113.tga
+│   │   ├── Aura114.tga
+│   │   ├── Aura115.tga
+│   │   ├── Aura116.tga
+│   │   ├── Aura117.tga
+│   │   ├── Aura118.tga
+│   │   ├── Aura119.tga
+│   │   ├── Aura12.tga
+│   │   ├── Aura120.tga
+│   │   ├── Aura121.tga
+│   │   ├── Aura122.tga
+│   │   ├── Aura123.tga
+│   │   ├── Aura124.tga
+│   │   ├── Aura125.tga
+│   │   ├── Aura126.tga
+│   │   ├── Aura127.tga
+│   │   ├── Aura128.tga
+│   │   ├── Aura129.tga
+│   │   ├── Aura13.tga
+│   │   ├── Aura130.tga
+│   │   ├── Aura131.tga
+│   │   ├── Aura132.tga
+│   │   ├── Aura133.tga
+│   │   ├── Aura134.tga
+│   │   ├── Aura135.tga
+│   │   ├── Aura136.tga
+│   │   ├── Aura137.tga
+│   │   ├── Aura138.tga
+│   │   ├── Aura139.tga
+│   │   ├── Aura14.tga
+│   │   ├── Aura140.tga
+│   │   ├── Aura141.tga
+│   │   ├── Aura142.tga
+│   │   ├── Aura143.tga
+│   │   ├── Aura144.tga
+│   │   ├── Aura145.tga
+│   │   ├── Aura15.tga
+│   │   ├── Aura16.tga
+│   │   ├── Aura17.tga
+│   │   ├── Aura18.tga
+│   │   ├── Aura19.tga
+│   │   ├── Aura2.tga
+│   │   ├── Aura20.tga
+│   │   ├── Aura21.tga
+│   │   ├── Aura22.tga
+│   │   ├── Aura23.tga
+│   │   ├── Aura24.tga
+│   │   ├── Aura25.tga
+│   │   ├── Aura26.tga
+│   │   ├── Aura27.tga
+│   │   ├── Aura28.tga
+│   │   ├── Aura29.tga
+│   │   ├── Aura3.tga
+│   │   ├── Aura30.tga
+│   │   ├── Aura31.tga
+│   │   ├── Aura32.tga
+│   │   ├── Aura33.tga
+│   │   ├── Aura34.tga
+│   │   ├── Aura35.tga
+│   │   ├── Aura36.tga
+│   │   ├── Aura37.tga
+│   │   ├── Aura38.tga
+│   │   ├── Aura39.tga
+│   │   ├── Aura4.tga
+│   │   ├── Aura40.tga
+│   │   ├── Aura41.tga
+│   │   ├── Aura42.tga
+│   │   ├── Aura43.tga
+│   │   ├── Aura44.tga
+│   │   ├── Aura45.tga
+│   │   ├── Aura46.tga
+│   │   ├── Aura47.tga
+│   │   ├── Aura48.tga
+│   │   ├── Aura49.tga
+│   │   ├── Aura5.tga
+│   │   ├── Aura50.tga
+│   │   ├── Aura51.tga
+│   │   ├── Aura52.tga
+│   │   ├── Aura53.tga
+│   │   ├── Aura54.tga
+│   │   ├── Aura55.tga
+│   │   ├── Aura56.tga
+│   │   ├── Aura57.tga
+│   │   ├── Aura58.tga
+│   │   ├── Aura59.tga
+│   │   ├── Aura6.tga
+│   │   ├── Aura60.tga
+│   │   ├── Aura61.tga
+│   │   ├── Aura62.tga
+│   │   ├── Aura63.tga
+│   │   ├── Aura64.tga
+│   │   ├── Aura65.tga
+│   │   ├── Aura66.tga
+│   │   ├── Aura67.tga
+│   │   ├── Aura68.tga
+│   │   ├── Aura69.tga
+│   │   ├── Aura7.tga
+│   │   ├── Aura70.tga
+│   │   ├── Aura71.tga
+│   │   ├── Aura72.tga
+│   │   ├── Aura73.tga
+│   │   ├── Aura74.tga
+│   │   ├── Aura75.tga
+│   │   ├── Aura76.tga
+│   │   ├── Aura77.tga
+│   │   ├── Aura78.tga
+│   │   ├── Aura79.tga
+│   │   ├── Aura8.tga
+│   │   ├── Aura80.tga
+│   │   ├── Aura81.tga
+│   │   ├── Aura82.tga
+│   │   ├── Aura83.tga
+│   │   ├── Aura84.tga
+│   │   ├── Aura85.tga
+│   │   ├── Aura86.tga
+│   │   ├── Aura87.tga
+│   │   ├── Aura88.tga
+│   │   ├── Aura89.tga
+│   │   ├── Aura9.tga
+│   │   ├── Aura90.tga
+│   │   ├── Aura91.tga
+│   │   ├── Aura92.tga
+│   │   ├── Aura93.tga
+│   │   ├── Aura94.tga
+│   │   ├── Aura95.tga
+│   │   ├── Aura96.tga
+│   │   ├── Aura97.tga
+│   │   ├── Aura98.tga
+│   │   └── Aura99.tga
+│   └── Sounds
+│       ├── Arrow_Swoosh.ogg
+│       ├── BITE.ogg
+│       ├── ESPARK1.ogg
+│       ├── Fireball.ogg
+│       ├── Gasp.ogg
+│       ├── PUNCH.ogg
+│       ├── Squeakypig.ogg
+│       ├── aggro.ogg
+│       ├── bam.ogg
+│       ├── bear_polar.ogg
+│       ├── bigkiss.ogg
+│       ├── burp4.ogg
+│       ├── cat2.ogg
+│       ├── chant2.ogg
+│       ├── chant4.ogg
+│       ├── chimes.ogg
+│       ├── cookie.ogg
+│       ├── heartbeat.ogg
+│       ├── hic3.ogg
+│       ├── huh_1.ogg
+│       ├── hurricane.ogg
+│       ├── hyena.ogg
+│       ├── kaching.ogg
+│       ├── moan.ogg
+│       ├── panther1.ogg
+│       ├── phone.ogg
+│       ├── rainroof.ogg
+│       ├── rocket.ogg
+│       ├── shipswhistle.ogg
+│       ├── shot.ogg
+│       ├── snakeatt.ogg
+│       ├── sneeze.ogg
+│       ├── sonar.ogg
+│       ├── splash.ogg
+│       ├── swordecho.ogg
+│       ├── throwknife.ogg
+│       ├── thunder.ogg
+│       ├── wickedmalelaugh1.ogg
+│       ├── wilhelm.ogg
+│       ├── wlaugh.ogg
+│       ├── wolf5.ogg
+│       └── yeehaw.ogg
+├── Profiling.lua
+├── Profiling.xml
+├── Prototypes.lua
+├── RegionTypes
+│   ├── AuraBar.lua
+│   ├── DynamicGroup.lua
+│   ├── Empty.lua
+│   ├── Group.lua
+│   ├── Icon.lua
+│   ├── Model.lua
+│   ├── ProgressTexture.lua
+│   ├── RegionPrototype.lua
+│   ├── SmoothStatusBarMixin.lua
+│   ├── StopMotion.lua
+│   ├── Text.lua
+│   └── Texture.lua
+├── SubRegionTypes
+│   ├── Background.lua
+│   ├── Border.lua
+│   ├── CircularProgressTexture.lua
+│   ├── Glow.lua
+│   ├── LinearProgressTexture.lua
+│   ├── Model.lua
+│   ├── StopMotion.lua
+│   ├── SubText.lua
+│   ├── Texture.lua
+│   └── Tick.lua
+├── SubscribableObject.lua
+├── TSUHelpers.lua
+├── TimeMachine.lua
+├── Transmission.lua
+├── Types.lua
+├── Types_Cata.lua
+├── Types_Mists.lua
+├── Types_Retail.lua
+├── Types_Vanilla.lua
+├── WeakAuras.lua
+├── WeakAuras.toc
+├── WeakAuras_Cata.toc
+├── WeakAuras_Mists.toc
+├── WeakAuras_Vanilla.toc
+├── cspell.json
+├── embeds.xml
+├── locales.xml
+├── stylua.toml
+├── rchive
+│   ├── WeakAurasArchive.toc
+│   ├── WeakAurasArchive_Cata.toc
+│   ├── WeakAurasArchive_Mists.toc
+│   └── WeakAurasArchive_Vanilla.toc
+├── odelPaths
+│   ├── ModelPaths.lua
+│   ├── ModelPathsCata.lua
+│   ├── ModelPathsClassic.lua
+│   ├── ModelPathsClassicEra.lua
+│   ├── ModelPathsMists.lua
+│   ├── WeakAurasModelPaths.toc
+│   ├── WeakAurasModelPaths_Cata.toc
+│   ├── WeakAurasModelPaths_Mists.toc
+│   └── WeakAurasModelPaths_Vanilla.toc
+├── ptions
+│   ├── .DS_Store
+│   ├── AceGUI-Widgets
+│   │   ├── AceGUIContainer-WeakAurasInlineGroup.lua
+│   │   ├── AceGUIContainer-WeakAurasTreeGroup.lua
+│   │   ├── AceGUIWidget-WeakAurasAnchorButtons.lua
+│   │   ├── AceGUIWidget-WeakAurasDisplayButton.lua
+│   │   ├── AceGUIWidget-WeakAurasDropDownItemCurrency.lua
+│   │   ├── AceGUIWidget-WeakAurasExpand.lua
+│   │   ├── AceGUIWidget-WeakAurasExpandAnchor.lua
+│   │   ├── AceGUIWidget-WeakAurasExpandSmall.lua
+│   │   ├── AceGUIWidget-WeakAurasIcon.lua
+│   │   ├── AceGUIWidget-WeakAurasIconButton.lua
+│   │   ├── AceGUIWidget-WeakAurasImportButton.lua
+│   │   ├── AceGUIWidget-WeakAurasInput.lua
+│   │   ├── AceGUIWidget-WeakAurasInputFocus.lua
+│   │   ├── AceGUIWidget-WeakAurasInputWithIndentation.lua
+│   │   ├── AceGUIWidget-WeakAurasLoadedHeaderButton.lua
+│   │   ├── AceGUIWidget-WeakAurasMiniTalent_Cata.lua
+│   │   ├── AceGUIWidget-WeakAurasMiniTalent_Mists.lua
+│   │   ├── AceGUIWidget-WeakAurasMiniTalent_TWW.lua
+│   │   ├── AceGUIWidget-WeakAurasMiniTalent_Wrath.lua
+│   │   ├── AceGUIWidget-WeakAurasMultiLineEditBox.lua
+│   │   ├── AceGUIWidget-WeakAurasMultiLineEditBoxWithEnter.lua
+│   │   ├── AceGUIWidget-WeakAurasNewButton.lua
+│   │   ├── AceGUIWidget-WeakAurasNewHeaderButton.lua
+│   │   ├── AceGUIWidget-WeakAurasPendingInstallButton.lua
+│   │   ├── AceGUIWidget-WeakAurasPendingUpdateButton.lua
+│   │   ├── AceGUIWidget-WeakAurasScrollArea.lua
+│   │   ├── AceGUIWidget-WeakAurasSnippetButton.lua
+│   │   ├── AceGUIWidget-WeakAurasSpacer.lua
+│   │   ├── AceGUIWidget-WeakAurasSpinBox.lua
+│   │   ├── AceGUIWidget-WeakAurasTextureButton.lua
+│   │   ├── AceGUIWidget-WeakAurasToolbarButton.lua
+│   │   ├── AceGUIWidget-WeakAurasTwoColumnDropDown.lua
+│   │   ├── AceGuiWidget-WeakAurasMediaSound.lua
+│   │   ├── AceGuiWidget-WeakAurasProgressBar.lua
+│   │   └── WeakAurasStatusbarAtlasWidget.lua
+│   ├── ActionOptions.lua
+│   ├── AnimationOptions.lua
+│   ├── AuthorOptions.lua
+│   ├── BuffTrigger2.lua
+│   ├── Cache.lua
+│   ├── Changelog.lua
+│   ├── CommonOptions.lua
+│   ├── ConditionOptions.lua
+│   ├── DisplayOptions.lua
+│   ├── ForAllIndentsAndPurposes.lua
+│   ├── GenericTrigger.lua
+│   ├── GroupOptions.lua
+│   ├── InformationOptions.lua
+│   ├── Libs
+│   │   ├── AceConfig-3.0
+│   │   │   ├── AceConfig-3.0.lua
+│   │   │   ├── AceConfig-3.0.xml
+│   │   │   ├── AceConfigCmd-3.0
+│   │   │   │   ├── AceConfigCmd-3.0.lua
+│   │   │   │   └── AceConfigCmd-3.0.xml
+│   │   │   ├── AceConfigDialog-3.0
+│   │   │   │   ├── AceConfigDialog-3.0.lua
+│   │   │   │   └── AceConfigDialog-3.0.xml
+│   │   │   └── AceConfigRegistry-3.0
+│   │   │       ├── AceConfigRegistry-3.0.lua
+│   │   │       └── AceConfigRegistry-3.0.xml
+│   │   ├── AceGUI-3.0-SharedMediaWidgets
+│   │   │   ├── BackgroundWidget.lua
+│   │   │   ├── BorderWidget.lua
+│   │   │   ├── FontWidget.lua
+│   │   │   ├── SoundWidget.lua
+│   │   │   ├── StatusbarWidget.lua
+│   │   │   ├── prototypes.lua
+│   │   │   └── widget.xml
+│   │   ├── AceGUI-3.0
+│   │   │   ├── AceGUI-3.0.lua
+│   │   │   ├── AceGUI-3.0.xml
+│   │   │   └── widgets
+│   │   │       ├── AceGUIContainer-BlizOptionsGroup.lua
+│   │   │       ├── AceGUIContainer-DropDownGroup.lua
+│   │   │       ├── AceGUIContainer-Frame.lua
+│   │   │       ├── AceGUIContainer-InlineGroup.lua
+│   │   │       ├── AceGUIContainer-ScrollFrame.lua
+│   │   │       ├── AceGUIContainer-SimpleGroup.lua
+│   │   │       ├── AceGUIContainer-TabGroup.lua
+│   │   │       ├── AceGUIContainer-TreeGroup.lua
+│   │   │       ├── AceGUIContainer-Window.lua
+│   │   │       ├── AceGUIWidget-Button.lua
+│   │   │       ├── AceGUIWidget-CheckBox.lua
+│   │   │       ├── AceGUIWidget-ColorPicker.lua
+│   │   │       ├── AceGUIWidget-DropDown-Items.lua
+│   │   │       ├── AceGUIWidget-DropDown.lua
+│   │   │       ├── AceGUIWidget-EditBox.lua
+│   │   │       ├── AceGUIWidget-Heading.lua
+│   │   │       ├── AceGUIWidget-Icon.lua
+│   │   │       ├── AceGUIWidget-InteractiveLabel.lua
+│   │   │       ├── AceGUIWidget-Keybinding.lua
+│   │   │       ├── AceGUIWidget-Label.lua
+│   │   │       ├── AceGUIWidget-MultiLineEditBox.lua
+│   │   │       └── AceGUIWidget-Slider.lua
+│   │   ├── LibAPIAutoComplete-1.0
+│   │   │   ├── LICENSE
+│   │   │   ├── LibAPIAutoComplete-1.0.lua
+│   │   │   ├── LibAPIAutoComplete-1.0.xml
+│   │   │   ├── README.md
+│   │   │   ├── cspell.json
+│   │   │   └── stylua.toml
+│   │   └── LibUIDropDownMenu
+│   │       ├── LibEasyMenu.lua
+│   │       ├── LibUIDropDownMenu.lua
+│   │       └── LibUIDropDownMenu.xml
+│   ├── LoadOptions.lua
+│   ├── Locales
+│   │   ├── deDE.lua
+│   │   ├── enUS.lua
+│   │   ├── esES.lua
+│   │   ├── esMX.lua
+│   │   ├── frFR.lua
+│   │   ├── itIT.lua
+│   │   ├── koKR.lua
+│   │   ├── ptBR.lua
+│   │   ├── ruRU.lua
+│   │   ├── zhCN.lua
+│   │   └── zhTW.lua
+│   ├── OptionsFrames
+│   │   ├── CodeReview.lua
+│   │   ├── DebugLogFrame.lua
+│   │   ├── FrameChooser.lua
+│   │   ├── IconPicker.lua
+│   │   ├── ImportExport.lua
+│   │   ├── ModelPicker.lua
+│   │   ├── MoverSizer.lua
+│   │   ├── OptionsFrame.lua
+│   │   ├── TextEditor.lua
+│   │   ├── TexturePicker.lua
+│   │   └── Update.lua
+│   ├── RegionOptions
+│   │   ├── AuraBar.lua
+│   │   ├── DynamicGroup.lua
+│   │   ├── Empty.lua
+│   │   ├── Group.lua
+│   │   ├── Icon.lua
+│   │   ├── Model.lua
+│   │   ├── ProgressTexture.lua
+│   │   ├── StopMotion.lua
+│   │   ├── Text.lua
+│   │   └── Texture.lua
+│   ├── SubRegionOptions
+│   │   ├── Background.lua
+│   │   ├── Border.lua
+│   │   ├── CircularProgressTexture.lua
+│   │   ├── Glow.lua
+│   │   ├── LinearProgressTexture.lua
+│   │   ├── Model.lua
+│   │   ├── StopMotion.lua
+│   │   ├── SubRegionCommon.lua
+│   │   ├── SubText.lua
+│   │   ├── Texture.lua
+│   │   └── Tick.lua
+│   ├── TriggerOptions.lua
+│   ├── VersionCheck.lua
+│   ├── WeakAurasOptions.lua
+│   ├── WeakAurasOptions.toc
+│   ├── WeakAurasOptions_Cata.toc
+│   ├── WeakAurasOptions_Mists.toc
+│   ├── WeakAurasOptions_Vanilla.toc
+│   ├── embeds.xml
+│   └── locales.xml
+└── emplates
+    ├── .DS_Store
+    ├── AceGUI-Widgets
+    │   └── AceGUIContainer-WeakAurasTemplateGroup.lua
+    ├── Locales
+    │   ├── deDE.lua
+    │   ├── enUS.lua
+    │   ├── esES.lua
+    │   ├── esMX.lua
+    │   ├── frFR.lua
+    │   ├── itIT.lua
+    │   ├── koKR.lua
+    │   ├── ptBR.lua
+    │   ├── ruRU.lua
+    │   ├── zhCN.lua
+    │   └── zhTW.lua
+    ├── TriggerTemplates.lua
+    ├── TriggerTemplatesData.lua
+    ├── TriggerTemplatesDataCataclysm.lua
+    ├── TriggerTemplatesDataClassicEra.lua
+    ├── TriggerTemplatesDataMists.lua
+    ├── WeakAurasTemplates.toc
+    ├── WeakAurasTemplates_Cata.toc
+    ├── WeakAurasTemplates_Mists.toc
+    ├── WeakAurasTemplates_Vanilla.toc
+    └── locales.xml
