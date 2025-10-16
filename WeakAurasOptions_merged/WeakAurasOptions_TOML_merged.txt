@@ -1,0 +1,12 @@
+=== MERGED TOML FILES FROM WeakAurasOptions ===
+
+
+=== FILE: WeakAurasOptions/Libs/LibAPIAutoComplete-1.0/stylua.toml ===
+indent_type = "Spaces"
+indent_width = 2
+column_width = 180
+line_endings = "Unix"
+quote_style = "ForceDouble"
+
+=== END OF FILE: WeakAurasOptions/Libs/LibAPIAutoComplete-1.0/stylua.toml ===
+
