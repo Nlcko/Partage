@@ -1,0 +1,11 @@
+WeakAurasModelPaths/
+├── 
+├── ModelPaths.lua
+├── ModelPathsCata.lua
+├── ModelPathsClassic.lua
+├── ModelPathsClassicEra.lua
+├── ModelPathsMists.lua
+├── WeakAurasModelPaths.toc
+├── WeakAurasModelPaths_Cata.toc
+├── WeakAurasModelPaths_Mists.toc
+└── WeakAurasModelPaths_Vanilla.toc
