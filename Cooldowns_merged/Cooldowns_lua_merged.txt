@@ -1,5 +1,5 @@
 # Merged LUA files from Cooldowns
-# Generated on: 2025-10-16T01:07:59.991Z
+# Generated on: 2025-10-16T01:10:34.521Z
 # Total files: 6
 
 
