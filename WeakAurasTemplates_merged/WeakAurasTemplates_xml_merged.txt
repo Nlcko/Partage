@@ -1,5 +1,5 @@
 # Merged XML files from WeakAurasTemplates
-# Generated on: 2025-10-16T01:09:06.976Z
+# Generated on: 2025-10-16T01:11:55.898Z
 # Total files: 1
 
 
