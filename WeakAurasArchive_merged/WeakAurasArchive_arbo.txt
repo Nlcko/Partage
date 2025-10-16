@@ -1,0 +1,6 @@
+WeakAurasArchive/
+├── 
+├── WeakAurasArchive.toc
+├── WeakAurasArchive_Cata.toc
+├── WeakAurasArchive_Mists.toc
+└── WeakAurasArchive_Vanilla.toc
