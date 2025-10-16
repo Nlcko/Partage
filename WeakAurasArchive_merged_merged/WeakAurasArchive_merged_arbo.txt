@@ -1,3 +1,0 @@
-📁 WeakAurasArchive_merged
-├── 📄 WeakAurasArchive_arbo.txt
-└── 📄 WeakAurasArchive_toc_merged.txt

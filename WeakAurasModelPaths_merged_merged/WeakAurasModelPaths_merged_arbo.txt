@@ -1,4 +1,0 @@
-📁 WeakAurasModelPaths_merged
-├── 📄 WeakAurasModelPaths_arbo.txt
-├── 📄 WeakAurasModelPaths_lua_merged.txt
-└── 📄 WeakAurasModelPaths_toc_merged.txt

@@ -1,5 +1,0 @@
-📁 WeakAurasTemplates_merged
-├── 📄 WeakAurasTemplates_arbo.txt
-├── 📄 WeakAurasTemplates_lua_merged.txt
-├── 📄 WeakAurasTemplates_toc_merged.txt
-└── 📄 WeakAurasTemplates_xml_merged.txt
