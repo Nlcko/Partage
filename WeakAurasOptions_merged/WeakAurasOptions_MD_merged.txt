@@ -1,0 +1,10 @@
+=== MERGED MD FILES FROM WeakAurasOptions ===
+
+
+=== FILE: WeakAurasOptions/Libs/LibAPIAutoComplete-1.0/README.md ===
+# LibAPIAutoComplete-1.0
+
+A World of Warcraft library that provides an UI widget for API documentation autocomplete.
+
+=== END OF FILE: WeakAurasOptions/Libs/LibAPIAutoComplete-1.0/README.md ===
+
