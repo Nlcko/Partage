@@ -1,0 +1,7 @@
+=== MERGED JSON FILES FROM WeakAurasOptions ===
+
+
+=== FILE: WeakAurasOptions/Libs/LibAPIAutoComplete-1.0/cspell.json ===
+[object Object]
+=== END OF FILE: WeakAurasOptions/Libs/LibAPIAutoComplete-1.0/cspell.json ===
+
