@@ -1,0 +1,8 @@
+=== MERGED GITIGNORE FILES FROM Cooldowns ===
+
+
+=== FILE: Cooldowns/.gitignore ===
+.idea/*
+
+=== END OF FILE: Cooldowns/.gitignore ===
+
