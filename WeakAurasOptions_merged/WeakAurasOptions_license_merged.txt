@@ -1,5 +1,5 @@
 # Merged LICENSE files from WeakAurasOptions
-# Generated on: 2025-10-16T01:08:59.982Z
+# Generated on: 2025-10-16T01:11:46.291Z
 # Total files: 1
 
 
