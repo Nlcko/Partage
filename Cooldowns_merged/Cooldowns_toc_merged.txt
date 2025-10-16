@@ -1,0 +1,21 @@
+# Merged TOC files from Cooldowns
+# Generated on: 2025-10-16T01:07:59.543Z
+# Total files: 1
+
+
+================================================================================
+FILE: Cooldowns/cooldowns.toc
+================================================================================
+
+## Interface: 11200
+## Title: cooldowns
+## Author: shirsig
+## SavedVariables: cooldowns_settings
+libs\module.lua
+libs\T.lua
+core.lua
+frame.lua
+player.lua
+enemy.lua
+
+
