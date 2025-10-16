@@ -1,0 +1,53 @@
+=== MERGED TOC FILES FROM WeakAurasArchive ===
+
+
+=== FILE: WeakAurasArchive/WeakAurasArchive.toc ===
+## Interface: 110205
+## Title: WeakAuras Archive
+## Author: The WeakAuras Team
+## Version: 5.20.5
+## IconTexture: Interface\AddOns\WeakAuras\Media\Textures\icon.blp
+## LoadOnDemand: 1
+## SavedVariables: WeakAurasArchive
+## Dependencies: WeakAuras
+
+=== END OF FILE: WeakAurasArchive/WeakAurasArchive.toc ===
+
+
+=== FILE: WeakAurasArchive/WeakAurasArchive_Cata.toc ===
+## Interface: 40402
+## Title: WeakAuras Archive
+## Author: The WeakAuras Team
+## Version: 5.20.5
+## LoadOnDemand: 1
+## SavedVariables: WeakAurasArchive
+## Dependencies: WeakAuras
+## AllowLoadGameType: cata
+
+=== END OF FILE: WeakAurasArchive/WeakAurasArchive_Cata.toc ===
+
+
+=== FILE: WeakAurasArchive/WeakAurasArchive_Mists.toc ===
+## Interface: 50500
+## Title: WeakAuras Archive
+## Author: The WeakAuras Team
+## Version: 5.20.5
+## LoadOnDemand: 1
+## SavedVariables: WeakAurasArchive
+## Dependencies: WeakAuras
+## AllowLoadGameType: mists
+
+=== END OF FILE: WeakAurasArchive/WeakAurasArchive_Mists.toc ===
+
+
+=== FILE: WeakAurasArchive/WeakAurasArchive_Vanilla.toc ===
+## Interface: 11507
+## Title: WeakAuras Archive
+## Author: The WeakAuras Team
+## Version: 5.20.5
+## LoadOnDemand: 1
+## SavedVariables: WeakAurasArchive
+## Dependencies: WeakAuras
+
+=== END OF FILE: WeakAurasArchive/WeakAurasArchive_Vanilla.toc ===
+
