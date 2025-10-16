@@ -1,0 +1,167 @@
+WeakAurasOptions/
+├── 
+├── .DS_Store
+├── AceGUI-Widgets
+│   ├── AceGUIContainer-WeakAurasInlineGroup.lua
+│   ├── AceGUIContainer-WeakAurasTreeGroup.lua
+│   ├── AceGUIWidget-WeakAurasAnchorButtons.lua
+│   ├── AceGUIWidget-WeakAurasDisplayButton.lua
+│   ├── AceGUIWidget-WeakAurasDropDownItemCurrency.lua
+│   ├── AceGUIWidget-WeakAurasExpand.lua
+│   ├── AceGUIWidget-WeakAurasExpandAnchor.lua
+│   ├── AceGUIWidget-WeakAurasExpandSmall.lua
+│   ├── AceGUIWidget-WeakAurasIcon.lua
+│   ├── AceGUIWidget-WeakAurasIconButton.lua
+│   ├── AceGUIWidget-WeakAurasImportButton.lua
+│   ├── AceGUIWidget-WeakAurasInput.lua
+│   ├── AceGUIWidget-WeakAurasInputFocus.lua
+│   ├── AceGUIWidget-WeakAurasInputWithIndentation.lua
+│   ├── AceGUIWidget-WeakAurasLoadedHeaderButton.lua
+│   ├── AceGUIWidget-WeakAurasMiniTalent_Cata.lua
+│   ├── AceGUIWidget-WeakAurasMiniTalent_Mists.lua
+│   ├── AceGUIWidget-WeakAurasMiniTalent_TWW.lua
+│   ├── AceGUIWidget-WeakAurasMiniTalent_Wrath.lua
+│   ├── AceGUIWidget-WeakAurasMultiLineEditBox.lua
+│   ├── AceGUIWidget-WeakAurasMultiLineEditBoxWithEnter.lua
+│   ├── AceGUIWidget-WeakAurasNewButton.lua
+│   ├── AceGUIWidget-WeakAurasNewHeaderButton.lua
+│   ├── AceGUIWidget-WeakAurasPendingInstallButton.lua
+│   ├── AceGUIWidget-WeakAurasPendingUpdateButton.lua
+│   ├── AceGUIWidget-WeakAurasScrollArea.lua
+│   ├── AceGUIWidget-WeakAurasSnippetButton.lua
+│   ├── AceGUIWidget-WeakAurasSpacer.lua
+│   ├── AceGUIWidget-WeakAurasSpinBox.lua
+│   ├── AceGUIWidget-WeakAurasTextureButton.lua
+│   ├── AceGUIWidget-WeakAurasToolbarButton.lua
+│   ├── AceGUIWidget-WeakAurasTwoColumnDropDown.lua
+│   ├── AceGuiWidget-WeakAurasMediaSound.lua
+│   ├── AceGuiWidget-WeakAurasProgressBar.lua
+│   └── WeakAurasStatusbarAtlasWidget.lua
+├── ActionOptions.lua
+├── AnimationOptions.lua
+├── AuthorOptions.lua
+├── BuffTrigger2.lua
+├── Cache.lua
+├── Changelog.lua
+├── CommonOptions.lua
+├── ConditionOptions.lua
+├── DisplayOptions.lua
+├── ForAllIndentsAndPurposes.lua
+├── GenericTrigger.lua
+├── GroupOptions.lua
+├── InformationOptions.lua
+├── Libs
+│   ├── AceConfig-3.0
+│   │   ├── AceConfig-3.0.lua
+│   │   ├── AceConfig-3.0.xml
+│   │   ├── AceConfigCmd-3.0
+│   │   │   ├── AceConfigCmd-3.0.lua
+│   │   │   └── AceConfigCmd-3.0.xml
+│   │   ├── AceConfigDialog-3.0
+│   │   │   ├── AceConfigDialog-3.0.lua
+│   │   │   └── AceConfigDialog-3.0.xml
+│   │   └── AceConfigRegistry-3.0
+│   │       ├── AceConfigRegistry-3.0.lua
+│   │       └── AceConfigRegistry-3.0.xml
+│   ├── AceGUI-3.0-SharedMediaWidgets
+│   │   ├── BackgroundWidget.lua
+│   │   ├── BorderWidget.lua
+│   │   ├── FontWidget.lua
+│   │   ├── SoundWidget.lua
+│   │   ├── StatusbarWidget.lua
+│   │   ├── prototypes.lua
+│   │   └── widget.xml
+│   ├── AceGUI-3.0
+│   │   ├── AceGUI-3.0.lua
+│   │   ├── AceGUI-3.0.xml
+│   │   └── widgets
+│   │       ├── AceGUIContainer-BlizOptionsGroup.lua
+│   │       ├── AceGUIContainer-DropDownGroup.lua
+│   │       ├── AceGUIContainer-Frame.lua
+│   │       ├── AceGUIContainer-InlineGroup.lua
+│   │       ├── AceGUIContainer-ScrollFrame.lua
+│   │       ├── AceGUIContainer-SimpleGroup.lua
+│   │       ├── AceGUIContainer-TabGroup.lua
+│   │       ├── AceGUIContainer-TreeGroup.lua
+│   │       ├── AceGUIContainer-Window.lua
+│   │       ├── AceGUIWidget-Button.lua
+│   │       ├── AceGUIWidget-CheckBox.lua
+│   │       ├── AceGUIWidget-ColorPicker.lua
+│   │       ├── AceGUIWidget-DropDown-Items.lua
+│   │       ├── AceGUIWidget-DropDown.lua
+│   │       ├── AceGUIWidget-EditBox.lua
+│   │       ├── AceGUIWidget-Heading.lua
+│   │       ├── AceGUIWidget-Icon.lua
+│   │       ├── AceGUIWidget-InteractiveLabel.lua
+│   │       ├── AceGUIWidget-Keybinding.lua
+│   │       ├── AceGUIWidget-Label.lua
+│   │       ├── AceGUIWidget-MultiLineEditBox.lua
+│   │       └── AceGUIWidget-Slider.lua
+│   ├── LibAPIAutoComplete-1.0
+│   │   ├── LICENSE
+│   │   ├── LibAPIAutoComplete-1.0.lua
+│   │   ├── LibAPIAutoComplete-1.0.xml
+│   │   ├── README.md
+│   │   ├── cspell.json
+│   │   └── stylua.toml
+│   └── LibUIDropDownMenu
+│       ├── LibEasyMenu.lua
+│       ├── LibUIDropDownMenu.lua
+│       └── LibUIDropDownMenu.xml
+├── LoadOptions.lua
+├── Locales
+│   ├── deDE.lua
+│   ├── enUS.lua
+│   ├── esES.lua
+│   ├── esMX.lua
+│   ├── frFR.lua
+│   ├── itIT.lua
+│   ├── koKR.lua
+│   ├── ptBR.lua
+│   ├── ruRU.lua
+│   ├── zhCN.lua
+│   └── zhTW.lua
+├── OptionsFrames
+│   ├── CodeReview.lua
+│   ├── DebugLogFrame.lua
+│   ├── FrameChooser.lua
+│   ├── IconPicker.lua
+│   ├── ImportExport.lua
+│   ├── ModelPicker.lua
+│   ├── MoverSizer.lua
+│   ├── OptionsFrame.lua
+│   ├── TextEditor.lua
+│   ├── TexturePicker.lua
+│   └── Update.lua
+├── RegionOptions
+│   ├── AuraBar.lua
+│   ├── DynamicGroup.lua
+│   ├── Empty.lua
+│   ├── Group.lua
+│   ├── Icon.lua
+│   ├── Model.lua
+│   ├── ProgressTexture.lua
+│   ├── StopMotion.lua
+│   ├── Text.lua
+│   └── Texture.lua
+├── SubRegionOptions
+│   ├── Background.lua
+│   ├── Border.lua
+│   ├── CircularProgressTexture.lua
+│   ├── Glow.lua
+│   ├── LinearProgressTexture.lua
+│   ├── Model.lua
+│   ├── StopMotion.lua
+│   ├── SubRegionCommon.lua
+│   ├── SubText.lua
+│   ├── Texture.lua
+│   └── Tick.lua
+├── TriggerOptions.lua
+├── VersionCheck.lua
+├── WeakAurasOptions.lua
+├── WeakAurasOptions.toc
+├── WeakAurasOptions_Cata.toc
+├── WeakAurasOptions_Mists.toc
+├── WeakAurasOptions_Vanilla.toc
+├── embeds.xml
+└── locales.xml
